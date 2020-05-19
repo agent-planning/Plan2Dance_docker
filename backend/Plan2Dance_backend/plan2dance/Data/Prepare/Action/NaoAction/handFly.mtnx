@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="DARWIN-MINI" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="2" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="4" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="3" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="6" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="5" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="8" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="7" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="10" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="9" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="12" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="11" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="14" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="13" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="16" />
+      <joint motor="XL-320" id="16" enable="True" id2="16" mirror="15" />
+    </skeleton>
+  </DesignRoot>
+  <FlowRoot>
+    <Flow name="motion (1)" return="-1">
+      <units />
+    </Flow>
+  </FlowRoot>
+  <PageRoot>
+    <Page name="Hand Fly">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="75" pose="5.86 -5.57 -39.84 36.33 -84.08 85.25 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="150" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="187" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="205" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="243" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="280" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="298" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="336" pose="5.86 -11.13 -79.69 82.03 8.2 -7.91 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+  </PageRoot>
+  <GroupRoot>
+    <Group name="None">
+      <param weights="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot />
+</Root>

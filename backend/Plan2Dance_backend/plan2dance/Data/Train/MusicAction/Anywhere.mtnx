@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="DARWIN-MINI" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="2" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="4" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="3" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="6" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="5" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="8" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="7" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="10" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="9" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="12" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="11" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="14" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="13" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="16" />
+      <joint motor="XL-320" id="16" enable="True" id2="16" mirror="15" />
+    </skeleton>
+  </DesignRoot>
+<FlowRoot>
+<Flow name="dance" return="-1">
+<units>
+<unit main="twist Waist " mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shoulder Rhythm" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Sidestep Left" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="twist Waist " mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shoulder Rhythm" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Sidestep Left" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shock Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="HandUpAndDown" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="twist Waist " mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shake Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Protest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="HandUpAndDown" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Appearance" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Heavy Pendulum" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shock Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Side Movement" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Hand Up" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="upward punches" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Rotating Right Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Scratching Head" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Drum Roll" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Swing" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shoulder Rhythm" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Fly" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Spread Wings" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Lift The Chest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Merge Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Side Movement" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Hand Up" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="upward punches" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shake Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Protest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Fly" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Spread Wings" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Lift The Chest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Merge Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Drum Roll" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Swing" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shake Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Protest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="HandUpAndDown" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Appearance" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Heavy Pendulum" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shock Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Side Movement" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Hand Up" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="upward punches" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Rotating Right Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Scratching Head" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Drum Roll" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Swing" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shoulder Rhythm" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Fly" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Spread Wings" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Lift The Chest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Merge Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Side Movement" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Hand Up" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="upward punches" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Shake Hands" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Protest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Hand Fly" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Spread Wings" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Lift The Chest" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Merge Hand" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Drum Roll" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Right Swing" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+</units>
+</Flow>
+</FlowRoot>
+<PageRoot><Page name="twist Waist ">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="9" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 0 23.44 -20.51 19.92 22.85 -23.44 12.6 -13.18 2.93 20.51" />
+        <step frame="34" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -35.16 34.57 22.85 -23.44 3.81 -4.39 -8.79 8.79" />
+        <step frame="43" pose="9.96 -14.94 -68.85 70.31 -14.65 6.74 -23.73 -0.29 -20.21 20.21 23.14 -23.14 12.89 -12.89 -20.8 -3.22" />
+        <step frame="68" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -11.72 11.13 22.85 -23.44 15.53 -16.11 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Left Turn">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="0.29 0.29 -72.95 73.54 0.29 0.29 0.59 -0.59 -26.37 26.37 29.59 -29 13.18 -13.18 0.29 0" />
+        <step frame="51" pose="0.29 0.29 -72.95 73.54 0.29 0.29 -5.27 5.27 -35.16 17.58 29.59 -29 4.39 -21.97 -5.57 5.86" />
+        <step frame="63" pose="0.29 0.29 -72.95 73.54 0.29 0.29 -5.27 5.27 -35.16 17.58 29.59 -29 -4.39 -30.76 -11.43 11.72" />
+        <step frame="89" pose="0.29 0.29 -72.95 73.54 0.29 0.29 0.59 -0.59 -26.37 26.37 29.59 -29 13.18 -13.18 0.29 0" />
+      </steps>
+    </Page>
+<Page name="Shoulder Rhythm">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="56" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="78" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="101" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Sidestep Left">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3" />
+      <steps>
+        <step frame="19" pose="-0.29 -0.29 -73.54 72.95 -0.29 -0.29 -12.01 11.43 -26.66 34.86 29 -47.17 12.89 -22.27 -0.29 -0.29" />
+        <step frame="20" pose="-0.29 -0.29 -73.54 72.95 -0.29 -0.29 -12.01 11.43 -26.66 34.86 29 -47.17 12.89 -22.27 -0.29 -0.29" />
+        <step frame="51" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="63" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="103" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="twist Waist ">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="9" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 0 23.44 -20.51 19.92 22.85 -23.44 12.6 -13.18 2.93 20.51" />
+        <step frame="34" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -35.16 34.57 22.85 -23.44 3.81 -4.39 -8.79 8.79" />
+        <step frame="43" pose="9.96 -14.94 -68.85 70.31 -14.65 6.74 -23.73 -0.29 -20.21 20.21 23.14 -23.14 12.89 -12.89 -20.8 -3.22" />
+        <step frame="68" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -11.72 11.13 22.85 -23.44 15.53 -16.11 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Left Turn">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="0.29 0.29 -72.95 73.54 0.29 0.29 0.59 -0.59 -26.37 26.37 29.59 -29 13.18 -13.18 0.29 0" />
+        <step frame="51" pose="0.29 0.29 -72.95 73.54 0.29 0.29 -5.27 5.27 -35.16 17.58 29.59 -29 4.39 -21.97 -5.57 5.86" />
+        <step frame="63" pose="0.29 0.29 -72.95 73.54 0.29 0.29 -5.27 5.27 -35.16 17.58 29.59 -29 -4.39 -30.76 -11.43 11.72" />
+        <step frame="89" pose="0.29 0.29 -72.95 73.54 0.29 0.29 0.59 -0.59 -26.37 26.37 29.59 -29 13.18 -13.18 0.29 0" />
+      </steps>
+    </Page>
+<Page name="Shoulder Rhythm">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="56" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="78" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="101" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Sidestep Left">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3" />
+      <steps>
+        <step frame="19" pose="-0.29 -0.29 -73.54 72.95 -0.29 -0.29 -12.01 11.43 -26.66 34.86 29 -47.17 12.89 -22.27 -0.29 -0.29" />
+        <step frame="20" pose="-0.29 -0.29 -73.54 72.95 -0.29 -0.29 -12.01 11.43 -26.66 34.86 29 -47.17 12.89 -22.27 -0.29 -0.29" />
+        <step frame="51" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="63" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="103" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="left Right Out">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 6 6 5 5 5 5 5 5 6 6" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="52" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="91" pose="94.92 -98.14 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="128" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="179" pose="81.89 -12.01 -0.19 44.53 9.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="231" pose="81.89 -12.01 -88.19 44.53 -86.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="282" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="333" pose="12.01 -81.89 -44.53 0.19 -48.34 -9.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="378" pose="12.01 -81.89 -44.53 88.19 -48.34 86.5 0 60 -64 4 122 -2 65 -5 0 60" />
+      </steps>
+    </Page>
+<Page name="Shock Hands">
+      <param compileSize="1" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="40" pose="26.66 -30.18 -65.04 64.75 -20.51 18.75 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="91" pose="68.55 -67.09 -102.25 48.05 -44.24 -7.62 2 2 -13 13 20 -20 12 -12 0 0" />
+        <step frame="128" pose="102.54 -102.83 2.05 106.35 -0.59 71.48 -10 -10 -43 40.11 20 -20 -4 4 -6 -6" />
+      </steps>
+    </Page>
+<Page name="HandUpAndDown">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="149.71 -150 -94.34 82.32 -27.54 44.24 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="77" pose="94.04 -95.21 -5.86 1.17 7.32 2.05 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="141" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="199" pose="71.78 -47.75 -104.88 36.62 -49.51 34.86 0 9 -8 3 10 0 6 -1 5 7" />
+        <step frame="239" pose="121.88 -102.83 1.46 87.01 -85.55 69.73 0 9 -8 3 10 0 6 0 5 7" />
+        <step frame="282" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="328" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="359" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -17 2 40 -10 22 -7 -20 -5" />
+        <step frame="384" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+      </steps>
+    </Page>
+<Page name="twist Waist ">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="9" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 0 23.44 -20.51 19.92 22.85 -23.44 12.6 -13.18 2.93 20.51" />
+        <step frame="34" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -35.16 34.57 22.85 -23.44 3.81 -4.39 -8.79 8.79" />
+        <step frame="43" pose="9.96 -14.94 -68.85 70.31 -14.65 6.74 -23.73 -0.29 -20.21 20.21 23.14 -23.14 12.89 -12.89 -20.8 -3.22" />
+        <step frame="68" pose="14.65 -10.25 -70.61 68.55 -7.03 14.36 -11.72 11.72 -11.72 11.13 22.85 -23.44 15.53 -16.11 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+<Page name="Raise Hand And Drop Down">
+      <param compileSize="2" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="30" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="51" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="59" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="87" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="116" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="144" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="179" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="206" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="231" pose="102.25 -5.86 -75.88 66.5 -101.66 -4.39 -7 7 -12.89 15.89 19.92 -25.92 13.06 -16.06 -7 7" />
+        <step frame="264" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="293" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="320" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+        <step frame="346" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+      </steps>
+    </Page>
+<Page name="Shake Hands">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="38" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="51" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="67" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="87" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="103" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Left Protest">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="77.93 -111.91 -49.22 52.44 -102.54 116.02 0 0 -18 18 30 -30 16 -16 0 0" />
+        <step frame="90" pose="89.94 -150 -101.66 99.32 -76.46 -12.6 0 0 -13 13 20 -20 10 -10 0 0" />
+      </steps>
+    </Page>
+<Page name="HandUpAndDown">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="149.71 -150 -94.34 82.32 -27.54 44.24 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="77" pose="94.04 -95.21 -5.86 1.17 7.32 2.05 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="141" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="199" pose="71.78 -47.75 -104.88 36.62 -49.51 34.86 0 9 -8 3 10 0 6 -1 5 7" />
+        <step frame="239" pose="121.88 -102.83 1.46 87.01 -85.55 69.73 0 9 -8 3 10 0 6 0 5 7" />
+        <step frame="282" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="328" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="359" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -17 2 40 -10 22 -7 -20 -5" />
+        <step frame="384" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+      </steps>
+    </Page>
+<Page name="Hand Appearance">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="90.82 -16.11 -97.56 58.59 -78.81 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="50" pose="101.37 -14.65 -8.79 58.89 -63.87 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="62" pose="101.37 -14.65 -8.79 58.89 -63.87 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="87" pose="15.82 -91.11 -58.89 97.27 -30.47 78.52 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+        <step frame="112" pose="14.36 -101.66 -59.18 8.5 -30.47 63.57 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+        <step frame="124" pose="14.36 -101.66 -59.18 8.5 -30.47 63.57 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+      </steps>
+    </Page>
+<Page name="Heavy Pendulum">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="32.81 0 -79.39 82.03 -2.05 0 0 0 -14.65 14.65 17.58 -17.58 11.72 -11.72 0 0" />
+        <step frame="61" pose="79.98 0 -87.89 82.03 -100.2 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="106" pose="149.71 3.22 -51.27 58.3 6.74 -15.23 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="165" pose="14.06 -98.14 -12.01 72.66 -88.18 109.86 -48.05 -22.85 -14.65 14.65 17.58 -17.58 8.79 -8.79 -30.47 -4.69" />
+        <step frame="205" pose="52.15 -53.32 -63.87 106.35 -74.12 37.21 -29.88 -19.92 -20.51 20.21 34.86 -35.16 18.75 -19.04 -24.32 -8.79" />
+        <step frame="230" pose="60.06 -58.01 -105.76 106.35 -17.58 9.96 -5.57 9.67 -20.51 20.21 34.86 -35.16 18.75 -19.04 -6.74 1.17" />
+        <step frame="256" pose="52.15 -53.32 -63.87 106.35 -74.12 37.21 -29.88 -19.92 -20.51 20.21 34.86 -35.16 18.75 -19.04 -24.32 -8.79" />
+      </steps>
+    </Page>
+<Page name="Shock Hands">
+      <param compileSize="1" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="40" pose="26.66 -30.18 -65.04 64.75 -20.51 18.75 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="91" pose="68.55 -67.09 -102.25 48.05 -44.24 -7.62 2 2 -13 13 20 -20 12 -12 0 0" />
+        <step frame="128" pose="102.54 -102.83 2.05 106.35 -0.59 71.48 -10 -10 -43 40.11 20 -20 -4 4 -6 -6" />
+      </steps>
+    </Page>
+<Page name="Side Movement">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="24" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="36" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="48" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="60" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="72" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="84" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="96" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Right Hand Up">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 5 5 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="52" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 18.75 -19.04 -9.08 -0.29" />
+        <step frame="102" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="154" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="upward punches">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="40" pose="149.71 -70.61 -85.25 68.85 -24.02 70.61 0 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -43.36 -7.91" />
+        <step frame="142" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="Rotating Right Hand">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="15.53 -10.84 41.02 -46 -88.77 97.27 0 0 -5.86 5.86 11.72 -11.72 5.57 -5.86 0 0" />
+        <step frame="75" pose="7.91 -6.45 -25.49 23.14 -106.93 108.11 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="102" pose="7.91 -6.45 -25.49 23.14 -106.93 108.11 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="127" pose="87.89 -89.94 -24.32 21.68 -107.52 108.98 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="154" pose="99.61 -93.16 -1.17 91.7 -94.92 -27.54 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="179" pose="136.52 -93.16 -30.47 91.7 -83.5 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="204" pose="94.63 -93.16 -72.66 91.7 -70.9 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="216" pose="54.49 -93.16 -33.98 91.7 -89.36 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="228" pose="87.6 -93.16 -7.32 91.7 -75 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+      </steps>
+    </Page>
+<Page name="Scratching Head">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="70" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="103" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="135" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="170" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="192" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="230" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Drum Roll">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="40.43 -43.07 -52.15 53.91 -82.03 91.7 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="52" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="68" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="88" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="112" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="136" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="167" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="206" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="234" pose="7.91 -49.22 -75.88 78.22 -6.74 78.22 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+      </steps>
+    </Page>
+<Page name="Right Swing">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="32" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="51" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="78" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="103" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="128" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="153" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="180" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="205" pose="9.38 -6.15 -51.27 68.55 -64.16 21.09 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+      </steps>
+    </Page>
+<Page name="left Right Out">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 6 6 5 5 5 5 5 5 6 6" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="52" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="91" pose="94.92 -98.14 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="128" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="179" pose="81.89 -12.01 -0.19 44.53 9.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="231" pose="81.89 -12.01 -88.19 44.53 -86.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="282" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="333" pose="12.01 -81.89 -44.53 0.19 -48.34 -9.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="378" pose="12.01 -81.89 -44.53 88.19 -48.34 86.5 0 60 -64 4 122 -2 65 -5 0 60" />
+      </steps>
+    </Page>
+<Page name="Shoulder Rhythm">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="56" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="78" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="101" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Hand Fly">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="5.86 -5.57 -39.84 36.33 -84.08 85.25 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="100" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="125" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="137" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="162" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="187" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="199" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="224" pose="5.86 -11.13 -79.69 82.03 8.2 -7.91 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+<Page name="Spread Wings">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="21.09 -15.82 52.73 -53.03 -115.14 112.21 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+        <step frame="78" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="93" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="143" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="155" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="180" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Lift The Chest">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="64" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="81" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="112" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="154" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="193" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="230" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+      </steps>
+    </Page>
+<Page name="Merge Hand">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -76.17 -36.04 36.04 -87.6 87.01 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="24" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="36" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="64" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="90" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Side Movement">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="24" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="36" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="48" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="60" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="72" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="84" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="96" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Right Hand Up">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 5 5 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="52" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 18.75 -19.04 -9.08 -0.29" />
+        <step frame="102" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="154" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="upward punches">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="40" pose="149.71 -70.61 -85.25 68.85 -24.02 70.61 0 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -43.36 -7.91" />
+        <step frame="142" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+<Page name="Raise Hand And Drop Down">
+      <param compileSize="2" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="30" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="51" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="59" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="87" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="116" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="144" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="179" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="206" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="231" pose="102.25 -5.86 -75.88 66.5 -101.66 -4.39 -7 7 -12.89 15.89 19.92 -25.92 13.06 -16.06 -7 7" />
+        <step frame="264" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="293" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="320" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+        <step frame="346" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+      </steps>
+    </Page>
+<Page name="Shake Hands">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="38" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="51" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="67" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="87" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="103" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Left Protest">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="77.93 -111.91 -49.22 52.44 -102.54 116.02 0 0 -18 18 30 -30 16 -16 0 0" />
+        <step frame="90" pose="89.94 -150 -101.66 99.32 -76.46 -12.6 0 0 -13 13 20 -20 10 -10 0 0" />
+      </steps>
+    </Page>
+<Page name="Hand Fly">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="5.86 -5.57 -39.84 36.33 -84.08 85.25 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="100" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="125" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="137" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="162" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="187" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="199" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="224" pose="5.86 -11.13 -79.69 82.03 8.2 -7.91 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+<Page name="Spread Wings">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="21.09 -15.82 52.73 -53.03 -115.14 112.21 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+        <step frame="78" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="93" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="143" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="155" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="180" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Lift The Chest">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="64" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="81" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="112" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="154" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="193" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="230" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+      </steps>
+    </Page>
+<Page name="Merge Hand">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -76.17 -36.04 36.04 -87.6 87.01 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="24" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="36" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="64" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="90" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Drum Roll">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="40.43 -43.07 -52.15 53.91 -82.03 91.7 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="52" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="68" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="88" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="112" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="136" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="167" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="206" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="234" pose="7.91 -49.22 -75.88 78.22 -6.74 78.22 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+      </steps>
+    </Page>
+<Page name="Right Swing">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="32" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="51" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="78" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="103" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="128" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="153" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="180" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="205" pose="9.38 -6.15 -51.27 68.55 -64.16 21.09 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+<Page name="Raise Hand And Drop Down">
+      <param compileSize="2" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="30" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="51" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="59" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="87" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="116" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="144" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="179" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="206" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="231" pose="102.25 -5.86 -75.88 66.5 -101.66 -4.39 -7 7 -12.89 15.89 19.92 -25.92 13.06 -16.06 -7 7" />
+        <step frame="264" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="293" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="320" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+        <step frame="346" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+      </steps>
+    </Page>
+<Page name="Shake Hands">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="38" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="51" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="67" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="87" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="103" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Left Protest">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="77.93 -111.91 -49.22 52.44 -102.54 116.02 0 0 -18 18 30 -30 16 -16 0 0" />
+        <step frame="90" pose="89.94 -150 -101.66 99.32 -76.46 -12.6 0 0 -13 13 20 -20 10 -10 0 0" />
+      </steps>
+    </Page>
+<Page name="HandUpAndDown">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="149.71 -150 -94.34 82.32 -27.54 44.24 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="77" pose="94.04 -95.21 -5.86 1.17 7.32 2.05 0 0 -13 13 20 -20 12 -12 0 0" />
+        <step frame="141" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="199" pose="71.78 -47.75 -104.88 36.62 -49.51 34.86 0 9 -8 3 10 0 6 -1 5 7" />
+        <step frame="239" pose="121.88 -102.83 1.46 87.01 -85.55 69.73 0 9 -8 3 10 0 6 0 5 7" />
+        <step frame="282" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="328" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+        <step frame="359" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -17 2 40 -10 22 -7 -20 -5" />
+        <step frame="384" pose="146.19 -150 -57.42 35.16 -91.41 2.34 -15 -5 -23 8 40 -10 22 -7 -20 -5" />
+      </steps>
+    </Page>
+<Page name="Hand Appearance">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="90.82 -16.11 -97.56 58.59 -78.81 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="50" pose="101.37 -14.65 -8.79 58.89 -63.87 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="62" pose="101.37 -14.65 -8.79 58.89 -63.87 30.18 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.38 12.89" />
+        <step frame="87" pose="15.82 -91.11 -58.89 97.27 -30.47 78.52 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+        <step frame="112" pose="14.36 -101.66 -59.18 8.5 -30.47 63.57 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+        <step frame="124" pose="14.36 -101.66 -59.18 8.5 -30.47 63.57 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.08" />
+      </steps>
+    </Page>
+<Page name="Heavy Pendulum">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="32.81 0 -79.39 82.03 -2.05 0 0 0 -14.65 14.65 17.58 -17.58 11.72 -11.72 0 0" />
+        <step frame="61" pose="79.98 0 -87.89 82.03 -100.2 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="106" pose="149.71 3.22 -51.27 58.3 6.74 -15.23 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="165" pose="14.06 -98.14 -12.01 72.66 -88.18 109.86 -48.05 -22.85 -14.65 14.65 17.58 -17.58 8.79 -8.79 -30.47 -4.69" />
+        <step frame="205" pose="52.15 -53.32 -63.87 106.35 -74.12 37.21 -29.88 -19.92 -20.51 20.21 34.86 -35.16 18.75 -19.04 -24.32 -8.79" />
+        <step frame="230" pose="60.06 -58.01 -105.76 106.35 -17.58 9.96 -5.57 9.67 -20.51 20.21 34.86 -35.16 18.75 -19.04 -6.74 1.17" />
+        <step frame="256" pose="52.15 -53.32 -63.87 106.35 -74.12 37.21 -29.88 -19.92 -20.51 20.21 34.86 -35.16 18.75 -19.04 -24.32 -8.79" />
+      </steps>
+    </Page>
+<Page name="Shock Hands">
+      <param compileSize="1" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="40" pose="26.66 -30.18 -65.04 64.75 -20.51 18.75 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="91" pose="68.55 -67.09 -102.25 48.05 -44.24 -7.62 2 2 -13 13 20 -20 12 -12 0 0" />
+        <step frame="128" pose="102.54 -102.83 2.05 106.35 -0.59 71.48 -10 -10 -43 40.11 20 -20 -4 4 -6 -6" />
+      </steps>
+    </Page>
+<Page name="Side Movement">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="24" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="36" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="48" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="60" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="72" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="84" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="96" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Right Hand Up">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 5 5 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="52" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 18.75 -19.04 -9.08 -0.29" />
+        <step frame="102" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="154" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="upward punches">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="40" pose="149.71 -70.61 -85.25 68.85 -24.02 70.61 0 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -43.36 -7.91" />
+        <step frame="142" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="Rotating Right Hand">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="15.53 -10.84 41.02 -46 -88.77 97.27 0 0 -5.86 5.86 11.72 -11.72 5.57 -5.86 0 0" />
+        <step frame="75" pose="7.91 -6.45 -25.49 23.14 -106.93 108.11 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="102" pose="7.91 -6.45 -25.49 23.14 -106.93 108.11 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="127" pose="87.89 -89.94 -24.32 21.68 -107.52 108.98 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="154" pose="99.61 -93.16 -1.17 91.7 -94.92 -27.54 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="179" pose="136.52 -93.16 -30.47 91.7 -83.5 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="204" pose="94.63 -93.16 -72.66 91.7 -70.9 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="216" pose="54.49 -93.16 -33.98 91.7 -89.36 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+        <step frame="228" pose="87.6 -93.16 -7.32 91.7 -75 -27.83 0 0 -5.86 5.86 11.72 -11.72 0 0 0 0" />
+      </steps>
+    </Page>
+<Page name="Scratching Head">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="70" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="103" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="135" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="170" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="192" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="230" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Drum Roll">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="40.43 -43.07 -52.15 53.91 -82.03 91.7 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="52" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="68" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="88" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="112" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="136" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="167" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="206" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="234" pose="7.91 -49.22 -75.88 78.22 -6.74 78.22 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+      </steps>
+    </Page>
+<Page name="Right Swing">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="32" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="51" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="78" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="103" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="128" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="153" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="180" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="205" pose="9.38 -6.15 -51.27 68.55 -64.16 21.09 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+      </steps>
+    </Page>
+<Page name="left Right Out">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 6 6 5 5 5 5 5 5 6 6" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="52" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="91" pose="94.92 -98.14 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="128" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="179" pose="81.89 -12.01 -0.19 44.53 9.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="231" pose="81.89 -12.01 -88.19 44.53 -86.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="282" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="333" pose="12.01 -81.89 -44.53 0.19 -48.34 -9.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="378" pose="12.01 -81.89 -44.53 88.19 -48.34 86.5 0 60 -64 4 122 -2 65 -5 0 60" />
+      </steps>
+    </Page>
+<Page name="Shoulder Rhythm">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="56" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="78" pose="28.42 -26.07 -69.43 81.45 8.79 -11.13 -26.66 -10.25 -14.94 14.65 17.58 -17.87 5.86 -6.15 -20.51 -4.39" />
+        <step frame="101" pose="31.05 -29 -53.91 50.98 -50.68 44.82 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Hand Fly">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="5.86 -5.57 -39.84 36.33 -84.08 85.25 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="100" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="125" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="137" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="162" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="187" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="199" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="224" pose="5.86 -11.13 -79.69 82.03 8.2 -7.91 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+<Page name="Spread Wings">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="21.09 -15.82 52.73 -53.03 -115.14 112.21 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+        <step frame="78" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="93" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="143" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="155" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="180" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Lift The Chest">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="64" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="81" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="112" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="154" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="193" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="230" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+      </steps>
+    </Page>
+<Page name="Merge Hand">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -76.17 -36.04 36.04 -87.6 87.01 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="24" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="36" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="64" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="90" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Side Movement">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="24" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="36" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="48" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="60" pose="149.71 -70.61 -26.95 98.14 -100.78 70.61 -29.59 -6.15 -23.44 20.21 40.72 -35.16 9.96 -19.04 -9.08 -9.08" />
+        <step frame="72" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 27.54 -19.04 -9.08 -0.29" />
+        <step frame="84" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+        <step frame="96" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -11.72 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -8.79 8.79" />
+      </steps>
+    </Page>
+<Page name="Right Hand Up">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 5 5 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="52" pose="149.71 -70.61 -85.25 98.14 -24.02 70.61 -12.01 11.43 -29.3 20.21 52.44 -35.16 18.75 -19.04 -9.08 -0.29" />
+        <step frame="102" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="154" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="upward punches">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="40" pose="149.71 -70.61 -85.25 68.85 -24.02 70.61 0 11.72 -20.51 20.21 34.86 -35.16 18.75 -19.04 -43.36 -7.91" />
+        <step frame="142" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+<Page name="Raise Hand And Drop Down">
+      <param compileSize="2" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="30" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="51" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="59" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="87" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="116" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="144" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="179" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="206" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="231" pose="102.25 -5.86 -75.88 66.5 -101.66 -4.39 -7 7 -12.89 15.89 19.92 -25.92 13.06 -16.06 -7 7" />
+        <step frame="264" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="293" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="320" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+        <step frame="346" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+      </steps>
+    </Page>
+<Page name="Shake Hands">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="38" pose="24.61 -26.07 -3.22 54.2 4.1 44.24 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="51" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="67" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="87" pose="25.78 -24.9 -54.49 2.93 -44.53 -4.39 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="103" pose="31.05 -28.12 -53.32 51.27 -49.8 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Left Protest">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="77.93 -111.91 -49.22 52.44 -102.54 116.02 0 0 -18 18 30 -30 16 -16 0 0" />
+        <step frame="90" pose="89.94 -150 -101.66 99.32 -76.46 -12.6 0 0 -13 13 20 -20 10 -10 0 0" />
+      </steps>
+    </Page>
+<Page name="Hand Fly">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="5.86 -5.57 -39.84 36.33 -84.08 85.25 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="100" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="125" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="137" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="162" pose="7.91 -13.77 -87.89 78.81 29.88 -20.21 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="187" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="199" pose="6.74 -8.2 -17.29 9.67 92.87 -88.18 0 0 -11.72 11.72 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="224" pose="5.86 -11.13 -79.69 82.03 8.2 -7.91 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+<Page name="Spread Wings">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="21.09 -15.82 52.73 -53.03 -115.14 112.21 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+        <step frame="78" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="93" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="143" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="155" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="180" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+<Page name="Lift The Chest">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="64" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="81" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="112" pose="16.41 -8.5 -54.49 71.78 -0.59 -26.07 0 0 -18.89 30.89 31.92 -55.92 19.06 -31.06 -9.11 -10.52" />
+        <step frame="154" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="193" pose="75.29 -74.41 -57.42 71.19 -100.78 91.7 0 0 -8.89 20.89 11.92 -35.92 9.06 -21.06 -9.11 -10.52" />
+        <step frame="230" pose="0 0 -70 70 0 0 0 0 -13 13 20 -20 14 -14 0 0" />
+      </steps>
+    </Page>
+<Page name="Merge Hand">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 6 6" />
+      <steps>
+        <step frame="12" pose="149.71 -76.17 -36.04 36.04 -87.6 87.01 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="24" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="36" pose="113.09 -97.56 -71.48 71.48 -90.82 97.27 20.21 30.18 -20.51 20.21 34.86 -35.16 18.75 -19.04 8.79 24.32" />
+        <step frame="64" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="90" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+<Page name="Drum Roll">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="40.43 -43.07 -52.15 53.91 -82.03 91.7 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="52" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="68" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="88" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="112" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="136" pose="150 -63.57 -77.34 90.23 -53.03 37.79 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="167" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="206" pose="63.57 -150 -90.23 77.34 -37.79 53.03 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+        <step frame="234" pose="7.91 -49.22 -75.88 78.22 -6.74 78.22 -5 5 -12.89 12.89 19.92 -19.92 14.06 -14.06 -5 5" />
+      </steps>
+    </Page>
+<Page name="Right Swing">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="32" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="51" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="78" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="103" pose="68.85 -45.7 -105.47 18.16 -76.76 108.4 5.86 5.86 0 17.58 0 -35.16 0 -17.58 0 0" />
+        <step frame="128" pose="55.96 -63.87 -33.4 106.35 -108.98 63.28 -6.15 -6.15 -17.58 0 35.16 0 17.58 0 -0.29 -0.29" />
+        <step frame="153" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="180" pose="115.14 -4.1 -53.61 71.19 -85.55 16.7 -2.93 -3.22 -14.36 11.72 17.29 -12.01 5.57 -3.22 -0.29 -0.29" />
+        <step frame="205" pose="9.38 -6.15 -51.27 68.55 -64.16 21.09 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+      </steps>
+    </Page>
+<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+</PageRoot>
+  <GroupRoot>
+    <Group name="None">
+      <param weights="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot />
+</Root>

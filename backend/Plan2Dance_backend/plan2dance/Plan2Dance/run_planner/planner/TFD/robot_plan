@@ -1,0 +1,4 @@
+#! /bin/bash
+export PATH=$PATH:./search
+
+./plan ~/Desktop/Robot/Data/Result/PDDL/domain.pddl ~/Desktop/Robot/Data/Result/PDDL/problem/p-14.pddl ~/Desktop/work/PDDL/robot/solution/plan.plan

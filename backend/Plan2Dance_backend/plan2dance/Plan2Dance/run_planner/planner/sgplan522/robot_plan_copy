@@ -1,0 +1,3 @@
+#! /bin/bash
+
+./sgplan522 -o ~/Desktop/time-dependent-cost-domains/robot/domain.pddl -f ~/Desktop/time-dependent-cost-domains/robot/problem.pddl -out plan

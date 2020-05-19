@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="DARWIN-MINI" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="2" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="4" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="3" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="6" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="5" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="8" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="7" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="10" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="9" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="12" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="11" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="14" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="13" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="16" />
+      <joint motor="XL-320" id="16" enable="True" id2="16" mirror="15" />
+    </skeleton>
+  </DesignRoot>
+<FlowRoot>
+<Flow name="dance" return="-1">
+<units>
+	<unit main="swingHandsFootSide fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="swingHandsFootSide mid" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head mid" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Left Protest slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Running Man" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="leftHook" mainSpeed="1" loop="2" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Hand To Others" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Running Man" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="leftHook" mainSpeed="1" loop="2" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="swingHandsFootSide fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Hand To Others" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="swingHandsFootSide fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Raise Hand And Drop Down" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Hand To Others" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Running Man" mainSpeed="1" loop="2" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Salute" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+</units>
+</Flow>
+</FlowRoot>
+<PageRoot>
+	<Page name="swingHandsFootSide fast">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="27" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 20 20 -34 14 -21 0 10" />
+        <step frame="38" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 25 20 -44 14 -26 0 10" />
+        <step frame="49" pose="7.91 -7.91 -87.3 94.34 70.9 -71.48 7 7 -13 20 20 -34 14 -21 5 5" />
+        <step frame="75" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -20 13 34 -20 21 -14 -10 0" />
+        <step frame="86" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -25 13 44 -20 26 -14 -10 0" />
+        <step frame="98" pose="7.91 -7.91 -94.34 87.3 71.48 -70.9 -7 -7 -20 13 34 -20 21 -14 -5 -5" />
+        <step frame="124" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 20 20 -34 14 -21 0 10" />
+        <step frame="136" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 25 20 -44 14 -26 0 10" />
+        <step frame="147" pose="7.91 -7.91 -87.3 94.34 70.9 -71.48 7 7 -13 20 20 -34 14 -21 5 5" />
+        <step frame="174" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -20 13 34 -20 21 -14 -10 0" />
+        <step frame="185" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -25 13 44 -20 26 -14 -10 0" />
+        <step frame="204" pose="7.91 -7.91 -94.34 87.3 71.48 -70.9 -7 -7 -20 13 34 -20 21 -14 -5 -5" />
+      </steps>
+    </Page>
+	<Page name="Scratching Head fast">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="59" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="87" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="114" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="144" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="163" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="195" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+	<Page name="swingHandsFootSide mid">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="32" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 20 20 -34 14 -21 0 10" />
+        <step frame="45" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 25 20 -44 14 -26 0 10" />
+        <step frame="58" pose="7.91 -7.91 -87.3 94.34 70.9 -71.48 7 7 -13 20 20 -34 14 -21 5 5" />
+        <step frame="89" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -20 13 34 -20 21 -14 -10 0" />
+        <step frame="102" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -25 13 44 -20 26 -14 -10 0" />
+        <step frame="116" pose="7.91 -7.91 -94.34 87.3 71.48 -70.9 -7 -7 -20 13 34 -20 21 -14 -5 -5" />
+        <step frame="147" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 20 20 -34 14 -21 0 10" />
+        <step frame="160" pose="2.05 -6.15 -41.89 54.2 27.25 -32.23 0 0 -13 25 20 -44 14 -26 0 10" />
+        <step frame="173" pose="7.91 -7.91 -87.3 94.34 70.9 -71.48 7 7 -13 20 20 -34 14 -21 5 5" />
+        <step frame="205" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -20 13 34 -20 21 -14 -10 0" />
+        <step frame="218" pose="6.15 -2.05 -54.2 41.89 32.23 -27.25 0 0 -25 13 44 -20 26 -14 -10 0" />
+        <step frame="240" pose="7.91 -7.91 -94.34 87.3 71.48 -70.9 -7 -7 -20 13 34 -20 21 -14 -5 -5" />
+      </steps>
+    </Page>
+	<Page name="Scratching Head mid">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="38" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="69" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="102" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="134" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="169" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="191" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="229" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+	<Page name="Raise Hand And Drop Down">
+      <param compileSize="2" acceleration="32" softness="6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="30" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="51" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="59" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="87" pose="60.64 -150 -33.98 35.45 -115.72 117.19 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="116" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -12.89 12.89 19.92 -19.92 13.06 -13.06 0 0" />
+        <step frame="144" pose="74.12 -145.02 -51.27 57.13 -104.59 91.7 0 0 -15.89 12.89 25.92 -19.92 16.06 -13.06 0 0" />
+        <step frame="179" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="206" pose="150 -60.64 -35.45 33.98 -117.19 115.72 0 0 -12.89 15.89 19.92 -25.92 13.06 -16.06 0 0" />
+        <step frame="231" pose="102.25 -5.86 -75.88 66.5 -101.66 -4.39 -7 7 -12.89 15.89 19.92 -25.92 13.06 -16.06 -7 7" />
+        <step frame="264" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="293" pose="98.14 -1.17 -105.18 61.23 -72.95 -4.39 -7 7 -12.89 25.89 19.92 -45.92 13.06 -26.06 -8.2 2.64" />
+        <step frame="320" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+        <step frame="346" pose="62.7 -6.15 -105.76 89.65 -63.87 -43.65 -7 7 -12.89 30.89 19.92 -55.92 13.06 -31.06 -16.11 -3.52" />
+      </steps>
+    </Page>
+	<Page name="Left Protest slow">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="58" pose="77.93 -111.91 -49.22 52.44 -102.54 116.02 0 0 -18 18 30 -30 16 -16 0 0" />
+        <step frame="103" pose="89.94 -150 -101.66 99.32 -76.46 -12.6 0 0 -13 13 20 -20 10 -10 0 0" />
+      </steps>
+    </Page>
+	<Page name="left Right Out">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 6 6 5 5 5 5 5 5 6 6" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="52" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="91" pose="94.92 -98.14 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="128" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="179" pose="81.89 -12.01 -0.19 44.53 9.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="231" pose="81.89 -12.01 -88.19 44.53 -86.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="282" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="333" pose="12.01 -81.89 -44.53 0.19 -48.34 -9.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="378" pose="12.01 -81.89 -44.53 88.19 -48.34 86.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="435" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="471" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="503" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 0 0 -64.45 64.45 114.26 -114.26 60.06 -60.06 0 0" />
+      </steps>
+    </Page>
+	<Page name="Running Man">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="9" pose="96.39 -93.16 53.03 -62.7 -116.02 112.21 0 0 -20.8 31.93 29.3 -29.3 18.75 -7.32 0 0" />
+        <step frame="21" pose="96.39 -93.16 53.03 -62.7 -116.02 112.21 0 0 -20.8 31.93 29.3 -29.3 18.75 -7.32 0 0" />
+        <step frame="71" pose="123.34 -122.46 -82.91 92.87 -17.87 -9.38 0 0 3.52 75 44.82 -79.39 58.01 -13.48 -4.98 -6.15" />
+        <step frame="196" pose="123.34 -122.46 -82.91 92.87 -17.87 -9.38 0 0 3.52 75 44.82 -79.39 58.01 -13.48 -4.98 -6.15" />
+        <step frame="246" pose="0 0 -73.24 73.24 0 0 -3.22 2.64 -41.31 26.07 58.3 -29.59 30.47 -16.41 -9.08 -3.22" />
+        <step frame="255" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+	<Page name="leftHook">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="50" pose="82.32 -108.4 -60.64 -48.05 -73.54 21.39 0.88 1.17 -19.04 -21.39 33.4 1.17 12.6 -16.7 1.17 1.17" />
+        <step frame="75" pose="17.87 -105.18 10.55 91.11 -90.53 17.29 0.59 0.59 -26.95 11.13 43.07 -44.82 16.99 -37.5 0.59 0" />
+      </steps>
+    </Page>
+	<Page name="Block 1-1">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="0" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="77" pose="4.1 -4.1 -1.17 1.17 -4.1 4.1 -34.28 34.28 -64.45 64.45 114.26 -114.26 60.06 -60.06 -32.23 32.23" />
+        <step frame="128" pose="4.39 -4.39 -59.18 59.18 -4.1 4.1 -33.69 33.69 -64.45 64.45 114.26 -114.26 60.06 -60.06 -31.93 31.93" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+	<Page name="Hand To Others">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="26" pose="86.13 -89.36 -61.82 62.99 -107.52 108.4 2 2 -13 13 20 -20 10 -10 0 0" />
+        <step frame="52" pose="0 0 -70 70 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+	<Page name="Salute">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="42" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="88" pose="-22.27 -44.24 -73.24 73.24 0 0 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="138" pose="-22.27 -44.24 -62.99 92.58 -71.78 58.59 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="213" pose="-22.27 -69.73 -62.99 92.58 -71.78 58.59 0 0 -79.39 82.91 29.3 -29.3 -10.25 10.55 0 0" />
+        <step frame="338" pose="-22.27 -69.73 -62.99 92.58 -71.78 58.59 0 0 -79.39 82.91 29.3 -29.3 -10.25 10.55 0 0" />
+        <step frame="413" pose="-22.27 -44.24 -73.24 73.24 0 0 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="463" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+
+</PageRoot>
+  <GroupRoot>
+    <Group name="None">
+      <param weights="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot />
+</Root>

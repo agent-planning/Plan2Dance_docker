@@ -1,0 +1,10 @@
+; Time 2.55
+0.000: (pointtwo)  [0.805]
+0.806: (centretoforward)  [0.500]
+1.307: (pointone)  [1.250]
+2.558: (handpointfour_pointone_coherent)  [2.000]
+4.559: (handpointone_handpointfour_coherent)  [1.211]
+5.771: (handtoothers)  [0.400]
+6.172: (pointone)  [1.250]
+7.423: (forwardtocentre)  [0.500]
+7.924: (pointthree)  [0.789]

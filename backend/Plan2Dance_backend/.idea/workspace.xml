@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="7722bc0c-bb64-4434-a1b8-e7f3d11fe05b" />
+  <component name="ProjectId" id="1c3tw8cFbKdv0YcWzQlQF0mvoZB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Jupyter-notebook\Plan2Dance_backend" />
+      <recent name="F:\Jupyter-notebook\Plan2Dance_backend\plan2dance" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.Plan2Dance_backend">
+    <configuration name="prepare_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Plan2Dance_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/prepare_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Plan2Dance_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plan2dance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plan2dance/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Plan2Dance_backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Plan2Dance_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Plan2Dance_backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.prepare_analysis" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="" />
+      <created>1589769340840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589769340840</updated>
+      <workItem from="1589769343718" duration="1742000" />
+      <workItem from="1589751249918" duration="10119000" />
+      <workItem from="1589811839299" duration="30716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589794326385">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1589794326385" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1589760149701">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589760149701" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.1.bottom" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.1.center" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.1.left" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state width="1493" height="231" key="GridCell.Tab.1.right" timestamp="1589877666051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1589877666051" />
+    <state x="270" y="59" key="SettingsEditor" timestamp="1589816651398">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1589816651398" />
+    <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1589873558580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1589873558580" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1589872884709">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1589872884709" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/prepare_analysis.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/prepare_analysis.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/prepare_analysis.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/segment.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/prepare_analysis.py</url>
+          <line>431</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/run.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan2dance/views.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Plan2Dance_backend$views.coverage" NAME="views Coverage Results" MODIFIED="1589851894118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan2dance" />
+    <SUITE FILE_PATH="coverage/Plan2Dance_backend$prepare_analysis.coverage" NAME="prepare_analysis Coverage Results" MODIFIED="1589873893755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis" />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+begin_groups
+28
+group
+1
+25 0 run_action 1 <akimboraise> 
+group
+1
+26 0 run_action 1 <handswavedown> 
+group
+1
+27 0 run_action 1 <slowlefthandwave> 
+group
+1
+3 0 defined!dance-time 0 
+group
+1
+17 0 defined!duration_handswavedown 1 <mid> 
+group
+1
+16 0 defined!duration_handswavedown 1 <high> 
+group
+1
+20 0 defined!duration_slowlefthandwave 1 <mid> 
+group
+1
+8 0 defined!duration_actionagain 2 <handswavedown> <mid> 
+group
+1
+19 0 defined!duration_slowlefthandwave 1 <high> 
+group
+1
+21 0 defined!duration_slowlefthandwave 1 <slow> 
+group
+1
+1 0 defined!action-again-times 1 <handswavedown> 
+group
+1
+4 0 defined!duration_actionagain 2 <akimboraise> <high> 
+group
+1
+12 0 defined!duration_actionagain 2 <slowlefthandwave> <slow> 
+group
+1
+6 0 defined!duration_actionagain 2 <akimboraise> <slow> 
+group
+1
+22 0 is_foot_use 0 
+group
+1
+13 0 defined!duration_akimboraise 1 <high> 
+group
+1
+15 0 defined!duration_akimboraise 1 <slow> 
+group
+1
+18 0 defined!duration_handswavedown 1 <slow> 
+group
+1
+7 0 defined!duration_actionagain 2 <handswavedown> <high> 
+group
+1
+9 0 defined!duration_actionagain 2 <handswavedown> <slow> 
+group
+1
+10 0 defined!duration_actionagain 2 <slowlefthandwave> <high> 
+group
+1
+0 0 defined!action-again-times 1 <akimboraise> 
+group
+1
+2 0 defined!action-again-times 1 <slowlefthandwave> 
+group
+1
+23 0 is_hand_use 0 
+group
+1
+24 0 new-axiom@0 0 
+group
+1
+5 0 defined!duration_actionagain 2 <akimboraise> <mid> 
+group
+1
+11 0 defined!duration_actionagain 2 <slowlefthandwave> <mid> 
+group
+1
+14 0 defined!duration_akimboraise 1 <mid> 
+end_groups

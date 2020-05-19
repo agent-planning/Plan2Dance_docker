@@ -1,0 +1,493 @@
+var0
+   0: Atom defined!action-again-times(<akimboraise>)
+   1: <none of those>
+var1
+   0: Atom defined!action-again-times(<handswavedown>)
+   1: <none of those>
+var2
+   0: Atom defined!action-again-times(<slowlefthandwave>)
+   1: <none of those>
+var3
+   0: Atom defined!dance-time()
+   1: <none of those>
+var4
+   0: Atom defined!duration_actionagain(<akimboraise>, <high>)
+   1: <none of those>
+var5
+   0: Atom defined!duration_actionagain(<akimboraise>, <mid>)
+   1: <none of those>
+var6
+   0: Atom defined!duration_actionagain(<akimboraise>, <slow>)
+   1: <none of those>
+var7
+   0: Atom defined!duration_actionagain(<handswavedown>, <high>)
+   1: <none of those>
+var8
+   0: Atom defined!duration_actionagain(<handswavedown>, <mid>)
+   1: <none of those>
+var9
+   0: Atom defined!duration_actionagain(<handswavedown>, <slow>)
+   1: <none of those>
+var10
+   0: Atom defined!duration_actionagain(<slowlefthandwave>, <high>)
+   1: <none of those>
+var11
+   0: Atom defined!duration_actionagain(<slowlefthandwave>, <mid>)
+   1: <none of those>
+var12
+   0: Atom defined!duration_actionagain(<slowlefthandwave>, <slow>)
+   1: <none of those>
+var13
+   0: Atom defined!duration_akimboraise(<high>)
+   1: <none of those>
+var14
+   0: Atom defined!duration_akimboraise(<mid>)
+   1: <none of those>
+var15
+   0: Atom defined!duration_akimboraise(<slow>)
+   1: <none of those>
+var16
+   0: Atom defined!duration_handswavedown(<high>)
+   1: <none of those>
+var17
+   0: Atom defined!duration_handswavedown(<mid>)
+   1: <none of those>
+var18
+   0: Atom defined!duration_handswavedown(<slow>)
+   1: <none of those>
+var19
+   0: Atom defined!duration_slowlefthandwave(<high>)
+   1: <none of those>
+var20
+   0: Atom defined!duration_slowlefthandwave(<mid>)
+   1: <none of those>
+var21
+   0: Atom defined!duration_slowlefthandwave(<slow>)
+   1: <none of those>
+var22
+   0: Atom is_foot_use()
+   1: <none of those>
+var23
+   0: Atom is_hand_use()
+   1: <none of those>
+var24
+   0: Atom new-axiom@0()
+   1: <none of those>
+var25
+   0: Atom run_action(<akimboraise>)
+   1: <none of those>
+var26
+   0: Atom run_action(<handswavedown>)
+   1: <none of those>
+var27
+   0: Atom run_action(<slowlefthandwave>)
+   1: <none of those>
+var28
+   -2: PNE derived!1()
+var29
+   -2: PNE derived!8(<high>, <lefthandsobliqueparallel>)
+   -2: PNE derived!10(<high>)
+var30
+   -2: PNE derived!10(<mid>)
+   -2: PNE derived!8(<mid>, <lefthandsobliqueparallel>)
+var31
+   -2: PNE derived!8(<slow>, <lefthandsobliqueparallel>)
+   -2: PNE derived!10(<slow>)
+var32
+   -2: PNE derived!8(<high>, <akimbodown>)
+   -2: PNE derived!8(<high>, <leftfuels>)
+   -2: PNE derived!15(<high>)
+   -2: PNE derived!11(<high>)
+var33
+   -2: PNE derived!11(<mid>)
+   -2: PNE derived!15(<mid>)
+   -2: PNE derived!8(<mid>, <leftfuels>)
+   -2: PNE derived!8(<mid>, <akimbodown>)
+var34
+   -2: PNE derived!8(<slow>, <leftfuels>)
+   -2: PNE derived!11(<slow>)
+   -2: PNE derived!8(<slow>, <akimbodown>)
+   -2: PNE derived!15(<slow>)
+var35
+   -2: PNE derived!8(<high>, <runningman>)
+   -2: PNE derived!12(<high>)
+var36
+   -2: PNE derived!8(<mid>, <runningman>)
+   -2: PNE derived!12(<mid>)
+var37
+   -2: PNE derived!12(<slow>)
+   -2: PNE derived!8(<slow>, <runningman>)
+var38
+   -2: PNE derived!8(<high>, <akimboraise>)
+   -2: PNE derived!8(<high>, <parallelhandsakimboerect>)
+   -2: PNE derived!13(<high>)
+   -2: PNE derived!33(<high>)
+var39
+   -2: PNE derived!13(<mid>)
+   -2: PNE derived!33(<mid>)
+   -2: PNE derived!8(<mid>, <parallelhandsakimboerect>)
+   -2: PNE derived!8(<mid>, <akimboraise>)
+var40
+   -2: PNE derived!8(<slow>, <parallelhandsakimboerect>)
+   -2: PNE derived!8(<high>, <finesseswing>)
+   -2: PNE derived!33(<slow>)
+   -2: PNE derived!42(<high>)
+   -2: PNE derived!8(<slow>, <akimboraise>)
+   -2: PNE derived!13(<slow>)
+var41
+   -2: PNE derived!8(<high>, <upwardpunches>)
+   -2: PNE derived!14(<high>)
+var42
+   -2: PNE derived!8(<mid>, <upwardpunches>)
+   -2: PNE derived!14(<mid>)
+var43
+   -2: PNE derived!14(<slow>)
+   -2: PNE derived!8(<slow>, <upwardpunches>)
+var44
+   -2: PNE derived!8(<high>, <leftpunch>)
+   -2: PNE derived!8(<high>, <righthandup>)
+   -2: PNE derived!8(<high>, <shockhands>)
+   -2: PNE derived!8(<high>, <shockhandstochest>)
+   -2: PNE derived!8(<high>, <righthandfan>)
+   -2: PNE derived!20(<high>)
+   -2: PNE derived!39(<high>)
+   -2: PNE derived!38(<high>)
+   -2: PNE derived!41(<high>)
+   -2: PNE derived!16(<high>)
+var45
+   -2: PNE derived!41(<mid>)
+   -2: PNE derived!16(<mid>)
+   -2: PNE derived!38(<mid>)
+   -2: PNE derived!8(<mid>, <leftpunch>)
+   -2: PNE derived!8(<mid>, <righthandfan>)
+   -2: PNE derived!8(<mid>, <righthandup>)
+   -2: PNE derived!8(<mid>, <shockhandstochest>)
+   -2: PNE derived!8(<mid>, <shockhands>)
+   -2: PNE derived!39(<mid>)
+   -2: PNE derived!20(<mid>)
+var46
+   -2: PNE derived!8(<slow>, <leftpunch>)
+   -2: PNE derived!20(<slow>)
+   -2: PNE derived!41(<slow>)
+   -2: PNE derived!38(<slow>)
+   -2: PNE derived!39(<slow>)
+   -2: PNE derived!16(<slow>)
+   -2: PNE derived!8(<slow>, <shockhands>)
+   -2: PNE derived!8(<slow>, <righthandfan>)
+   -2: PNE derived!8(<slow>, <righthandup>)
+   -2: PNE derived!8(<slow>, <shockhandstochest>)
+var47
+   -2: PNE derived!8(<high>, <enlargebosmhoodwink>)
+   -2: PNE derived!8(<high>, <leftprotest>)
+   -2: PNE derived!8(<high>, <hitchest>)
+   -2: PNE derived!45(<high>)
+   -2: PNE derived!8(<high>, <openheartleft>)
+   -2: PNE derived!17(<high>)
+   -2: PNE derived!40(<high>)
+   -2: PNE derived!32(<high>)
+var48
+   -2: PNE derived!32(<mid>)
+   -2: PNE derived!17(<mid>)
+   -2: PNE derived!8(<mid>, <leftprotest>)
+   -2: PNE derived!8(<mid>, <openheartleft>)
+   -2: PNE derived!45(<mid>)
+   -2: PNE derived!40(<mid>)
+   -2: PNE derived!8(<mid>, <hitchest>)
+   -2: PNE derived!8(<mid>, <enlargebosmhoodwink>)
+var49
+   -2: PNE derived!8(<slow>, <leftprotest>)
+   -2: PNE derived!8(<slow>, <hitchest>)
+   -2: PNE derived!8(<slow>, <openheartleft>)
+   -2: PNE derived!8(<slow>, <enlargebosmhoodwink>)
+   -2: PNE derived!32(<slow>)
+   -2: PNE derived!40(<slow>)
+   -2: PNE derived!17(<slow>)
+   -2: PNE derived!45(<slow>)
+var50
+   -2: PNE derived!18(<high>)
+   -2: PNE derived!8(<high>, <rightpendulum>)
+var51
+   -2: PNE derived!8(<mid>, <rightpendulum>)
+   -2: PNE derived!18(<mid>)
+var52
+   -2: PNE derived!8(<slow>, <rightpendulum>)
+   -2: PNE derived!18(<slow>)
+var53
+   -2: PNE derived!8(<high>, <akimbo>)
+   -2: PNE derived!19(<high>)
+var54
+   -2: PNE derived!19(<mid>)
+   -2: PNE derived!8(<mid>, <akimbo>)
+var55
+   -2: PNE derived!8(<slow>, <akimbo>)
+   -2: PNE derived!19(<slow>)
+var56
+   -2: PNE derived!2(<akimboraise>)
+var57
+   -2: PNE derived!2(<handswavedown>)
+var58
+   -2: PNE derived!2(<slowlefthandwave>)
+var59
+   -2: PNE derived!8(<high>, <handswavedown>)
+   -2: PNE derived!8(<high>, <handswaveup>)
+   -2: PNE derived!28(<high>)
+   -2: PNE derived!21(<high>)
+var60
+   -2: PNE derived!21(<mid>)
+   -2: PNE derived!28(<mid>)
+   -2: PNE derived!8(<mid>, <handswaveup>)
+   -2: PNE derived!8(<mid>, <handswavedown>)
+var61
+   -2: PNE derived!8(<slow>, <handswavedown>)
+   -2: PNE derived!8(<slow>, <handswaveup>)
+   -2: PNE derived!28(<slow>)
+   -2: PNE derived!21(<slow>)
+var62
+   -2: PNE derived!8(<high>, <taketheleft>)
+   -2: PNE derived!22(<high>)
+var63
+   -2: PNE derived!22(<mid>)
+   -2: PNE derived!8(<mid>, <taketheleft>)
+var64
+   -2: PNE derived!22(<slow>)
+   -2: PNE derived!8(<slow>, <taketheleft>)
+var65
+   -2: PNE derived!8(<high>, <rightdenddarallel>)
+   -2: PNE derived!23(<high>)
+var66
+   -2: PNE derived!8(<mid>, <rightdenddarallel>)
+   -2: PNE derived!23(<mid>)
+var67
+   -2: PNE derived!8(<slow>, <rightdenddarallel>)
+   -2: PNE derived!23(<slow>)
+var68
+   -2: PNE derived!8(<high>, <splitleap>)
+   -2: PNE derived!24(<high>)
+var69
+   -2: PNE derived!8(<mid>, <splitleap>)
+   -2: PNE derived!24(<mid>)
+var70
+   -2: PNE derived!8(<slow>, <splitleap>)
+   -2: PNE derived!24(<slow>)
+var71
+   -2: PNE derived!8(<high>, <beatupanddown>)
+   -2: PNE derived!8(<high>, <slowsidestepleft>)
+   -2: PNE derived!8(<high>, <motionhands>)
+   -2: PNE derived!25(<high>)
+   -2: PNE derived!36(<high>)
+   -2: PNE derived!34(<high>)
+var72
+   -2: PNE derived!34(<mid>)
+   -2: PNE derived!8(<mid>, <motionhands>)
+   -2: PNE derived!8(<mid>, <slowsidestepleft>)
+   -2: PNE derived!36(<mid>)
+   -2: PNE derived!25(<mid>)
+   -2: PNE derived!8(<mid>, <beatupanddown>)
+var73
+   -2: PNE derived!8(<slow>, <motionhands>)
+   -2: PNE derived!25(<slow>)
+   -2: PNE derived!36(<slow>)
+   -2: PNE derived!34(<slow>)
+   -2: PNE derived!8(<slow>, <slowsidestepleft>)
+   -2: PNE derived!8(<slow>, <beatupanddown>)
+var74
+   -2: PNE derived!8(<high>, <sidemovement>)
+   -2: PNE derived!26(<high>)
+var75
+   -2: PNE derived!26(<mid>)
+   -2: PNE derived!8(<mid>, <sidemovement>)
+var76
+   -2: PNE derived!26(<slow>)
+   -2: PNE derived!8(<slow>, <sidemovement>)
+var77
+   -2: PNE derived!8(<high>, <hands_90>)
+   -2: PNE derived!27(<high>)
+   -2: PNE derived!68()
+var78
+   -2: PNE derived!27(<mid>)
+   -2: PNE derived!67()
+   -2: PNE derived!8(<mid>, <hands_90>)
+var79
+   -2: PNE derived!8(<slow>, <hands_90>)
+   -2: PNE derived!46()
+   -2: PNE derived!27(<slow>)
+var80
+   -2: PNE derived!59()
+   -2: PNE derived!8(<high>, <armsupward>)
+   -2: PNE derived!29(<high>)
+   -2: PNE derived!8(<high>, <leftrightrhythm>)
+   -2: PNE derived!31(<high>)
+var81
+   -2: PNE derived!8(<mid>, <leftrightrhythm>)
+   -2: PNE derived!29(<mid>)
+   -2: PNE derived!31(<mid>)
+   -2: PNE derived!8(<mid>, <armsupward>)
+var82
+   -2: PNE derived!8(<slow>, <leftrightrhythm>)
+   -2: PNE derived!31(<slow>)
+   -2: PNE derived!50()
+   -2: PNE derived!8(<slow>, <armsupward>)
+   -2: PNE derived!29(<slow>)
+var83
+   -2: PNE derived!3()
+var84
+   -2: PNE derived!8(<high>, <slowleftturn>)
+   -2: PNE derived!30(<high>)
+var85
+   -2: PNE derived!8(<mid>, <slowleftturn>)
+   -2: PNE derived!30(<mid>)
+var86
+   -2: PNE derived!30(<slow>)
+   -2: PNE derived!8(<slow>, <slowleftturn>)
+var87
+   -2: PNE derived!8(<high>, <parallelhands>)
+   -2: PNE derived!35(<high>)
+var88
+   -2: PNE derived!8(<mid>, <parallelhands>)
+   -2: PNE derived!35(<mid>)
+var89
+   -2: PNE derived!8(<slow>, <parallelhands>)
+   -2: PNE derived!35(<slow>)
+var90
+   -2: PNE derived!8(<high>, <slowlefthandwave>)
+   -2: PNE derived!37(<high>)
+var91
+   -2: PNE derived!37(<mid>)
+   -2: PNE derived!8(<mid>, <slowlefthandwave>)
+var92
+   -2: PNE derived!37(<slow>)
+   -2: PNE derived!8(<slow>, <slowlefthandwave>)
+var93
+   -2: PNE derived!4()
+var94
+   -2: PNE derived!42(<mid>)
+   -2: PNE derived!8(<mid>, <finesseswing>)
+var95
+   -2: PNE derived!8(<slow>, <finesseswing>)
+   -2: PNE derived!42(<slow>)
+var96
+   -2: PNE derived!43(<high>)
+   -2: PNE derived!8(<high>, <salute>)
+var97
+   -2: PNE derived!8(<mid>, <salute>)
+   -2: PNE derived!43(<mid>)
+var98
+   -2: PNE derived!8(<slow>, <salute>)
+   -2: PNE derived!43(<slow>)
+var99
+   -2: PNE derived!44(<high>)
+   -2: PNE derived!8(<high>, <abandon>)
+var100
+   -2: PNE derived!44(<mid>)
+   -2: PNE derived!8(<mid>, <abandon>)
+var101
+   -2: PNE derived!44(<slow>)
+   -2: PNE derived!8(<slow>, <abandon>)
+var102
+   -2: PNE derived!47()
+var103
+   -2: PNE derived!48()
+var104
+   -2: PNE derived!49()
+var105
+   -2: PNE derived!5()
+var106
+   -2: PNE derived!51()
+var107
+   -2: PNE derived!52()
+var108
+   -2: PNE derived!53()
+var109
+   -2: PNE derived!54()
+var110
+   -2: PNE derived!55()
+var111
+   -2: PNE derived!56()
+var112
+   -2: PNE derived!57()
+var113
+   -2: PNE derived!58()
+var114
+   -2: PNE derived!6()
+var115
+   -2: PNE derived!60()
+var116
+   -2: PNE derived!61()
+var117
+   -2: PNE derived!62()
+var118
+   -2: PNE derived!63()
+var119
+   -2: PNE derived!64()
+var120
+   -2: PNE derived!65()
+var121
+   -2: PNE derived!66()
+var122
+   -2: PNE derived!7()
+var123
+   -2: PNE derived!9()
+var124
+   -2: PNE action-again-times(<akimboraise>)
+var125
+   -2: PNE action-again-times(<handswavedown>)
+var126
+   -2: PNE action-again-times(<slowlefthandwave>)
+var127
+   -2: PNE dance-time()
+var128
+   -2: PNE duration_actionagain(<akimboraise>, <high>)
+var129
+   -2: PNE duration_actionagain(<akimboraise>, <mid>)
+var130
+   -2: PNE duration_actionagain(<akimboraise>, <slow>)
+var131
+   -2: PNE duration_actionagain(<handswavedown>, <high>)
+var132
+   -2: PNE duration_actionagain(<handswavedown>, <mid>)
+var133
+   -2: PNE duration_actionagain(<handswavedown>, <slow>)
+var134
+   -2: PNE duration_actionagain(<slowlefthandwave>, <high>)
+var135
+   -2: PNE duration_actionagain(<slowlefthandwave>, <mid>)
+var136
+   -2: PNE duration_actionagain(<slowlefthandwave>, <slow>)
+var137
+   -2: PNE duration_akimboraise(<high>)
+var138
+   -2: PNE duration_akimboraise(<mid>)
+var139
+   -2: PNE duration_akimboraise(<slow>)
+var140
+   -2: PNE duration_handswavedown(<high>)
+var141
+   -2: PNE duration_handswavedown(<mid>)
+var142
+   -2: PNE duration_handswavedown(<slow>)
+var143
+   -2: PNE duration_slowlefthandwave(<high>)
+var144
+   -2: PNE duration_slowlefthandwave(<mid>)
+var145
+   -2: PNE duration_slowlefthandwave(<slow>)
+var146
+   0: FunctionComparison (< PNE derived!2(<akimboraise>), PNE derived!3())
+   1: NegatedFunctionComparison (< PNE derived!2(<akimboraise>), PNE derived!3())
+   2: <none of those>
+var147
+   0: FunctionComparison (< PNE derived!2(<handswavedown>), PNE derived!3())
+   1: NegatedFunctionComparison (< PNE derived!2(<handswavedown>), PNE derived!3())
+   2: <none of those>
+var148
+   0: FunctionComparison (< PNE derived!2(<slowlefthandwave>), PNE derived!3())
+   1: NegatedFunctionComparison (< PNE derived!2(<slowlefthandwave>), PNE derived!3())
+   2: <none of those>
+var149
+   0: FunctionComparison (< PNE derived!7(), PNE derived!3())
+   1: NegatedFunctionComparison (< PNE derived!7(), PNE derived!3())
+   2: <none of those>
+var150
+   0: FunctionComparison (> PNE derived!5(), PNE derived!3())
+   1: NegatedFunctionComparison (> PNE derived!5(), PNE derived!3())
+   2: <none of those>

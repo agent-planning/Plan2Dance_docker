@@ -1,0 +1,5 @@
+#! /bin/bash
+ulimit -t 1800
+ulimit -v 4000000
+
+./optic-clp domain.pddl problem.pddl

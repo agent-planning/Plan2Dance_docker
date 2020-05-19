@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="DARWIN-MINI" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="2" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="4" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="3" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="6" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="5" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="8" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="7" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="10" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="9" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="12" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="11" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="14" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="13" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="16" />
+      <joint motor="XL-320" id="16" enable="True" id2="16" mirror="15" />
+    </skeleton>
+  </DesignRoot>
+  <FlowRoot>
+    <Flow name="motion (1)" return="-1">
+      <units />
+    </Flow>
+  </FlowRoot>
+  <PageRoot>
+    <Page name="Sleeve Throwing">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="27" pose="16.11 -17.87 -64.75 72.07 -30.18 17.29 -2.93 0.29 7.03 -7.32 -12.6 9.67 -3.52 0.59 -1.46 0.59" />
+        <step frame="71" pose="49.8 -51.86 -72.95 72.07 -65.04 63.57 1.46 -4.1 -24.32 -0.59 19.34 -12.89 -2.64 -13.18 2.34 -4.69" />
+        <step frame="118" pose="79.98 -80.57 -64.75 64.16 -98.44 97.56 -1.46 0.29 7.62 -6.74 -10.84 8.2 -4.98 4.39 -0.29 0.59" />
+        <step frame="157" pose="136.52 -130.08 -73.54 73.83 -50.1 47.17 -6.45 -4.39 -48.34 23.14 41.6 -48.93 -0.29 -35.74 0.88 -1.17" />
+        <step frame="205" pose="115.72 -116.02 -75.88 79.98 -42.19 40.14 9.08 5.27 -27.54 21.97 34.28 -24.9 13.77 -12.6 14.36 9.67" />
+        <step frame="243" pose="116.02 -112.21 -75 80.27 -44.24 32.81 -0.59 8.2 8.2 36.33 -12.6 -55.37 -12.01 -16.41 15.82 11.43" />
+        <step frame="261" pose="137.11 -145.02 -73.24 80.27 -42.19 31.93 2.05 -2.34 -4.98 24.32 13.48 -31.05 9.67 -7.32 12.3 8.5" />
+        <step frame="306" pose="137.11 -145.02 -73.24 80.27 -42.19 31.93 2.05 -2.34 -4.98 24.32 13.48 -31.05 9.67 -7.32 12.3 8.5" />
+        <step frame="350" pose="130.37 -131.84 -83.2 86.72 -39.84 29 1.46 2.64 -11.13 11.13 22.27 -26.66 8.5 -16.11 4.39 1.46" />
+        <step frame="392" pose="125.1 -125.1 -93.75 95.21 -39.55 29.59 -4.98 -6.45 -37.79 10.25 29.88 -21.39 -4.1 -14.94 -0.29 -1.17" />
+        <step frame="431" pose="116.89 -118.65 -65.33 66.21 -84.96 82.03 -0.29 -2.34 -21.68 23.44 29.3 -28.71 10.25 -9.96 2.34 -0.88" />
+        <step frame="468" pose="82.03 -85.55 -67.38 57.42 -110.16 115.43 -5.27 -4.1 -6.15 24.02 18.46 -24.02 16.11 -2.34 -4.1 -4.1" />
+        <step frame="504" pose="89.65 -86.13 -3.81 4.98 -87.6 70.61 7.03 4.98 -14.36 2.64 32.23 -14.65 7.32 -16.11 -4.1 -11.72" />
+        <step frame="538" pose="89.06 -85.84 -3.22 4.98 -87.6 71.19 13.18 9.38 -24.32 0.29 36.04 -6.74 2.64 -11.13 -2.05 -7.32" />
+        <step frame="568" pose="88.18 -86.13 -4.69 4.98 -60.35 45.7 13.18 9.67 -44.24 14.36 64.16 -25.49 20.8 -14.65 -2.34 -11.72" />
+        <step frame="581" pose="91.11 -87.3 -2.34 4.98 -36.62 25.49 6.15 -1.76 -25.2 -3.81 28.71 -7.62 1.76 -12.01 -3.52 -14.06" />
+        <step frame="615" pose="91.11 -87.3 -2.34 4.98 -36.62 25.49 6.15 -1.76 -25.2 -3.81 28.71 -7.62 1.76 -12.01 -3.52 -14.06" />
+        <step frame="666" pose="116.89 -118.65 -65.33 66.21 -84.96 82.03 -0.29 -2.34 -21.68 23.44 29.3 -28.71 10.25 -9.96 2.34 -0.88" />
+      </steps>
+    </Page>
+  </PageRoot>
+  <GroupRoot>
+    <Group name="None">
+      <param weights="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot />
+</Root>
