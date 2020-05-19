@@ -2,7 +2,7 @@ version: '2'
 services:
   backend:
     build: backend/
-    container_name: p2d_backend_test
+    container_name: p2d_backend
     expose:
       - "8081"
     ports:
@@ -16,11 +16,9 @@ services:
     command: ["python3", "manage.py", "runserver", "0.0.0.0:8081"]
   mysql:
     image: mysql:5.6
-    container_name: p2d_database_test
+    container_name: p2d_database
     environment:
-      MYSQL_ROOT_PASSWORD: "455050954"
-      MYSQL_USER: 'bobo'
-      MYSQL_PASS: '123456'
+      MYSQL_ROOT_PASSWORD: "123456"
     restart: always
     ports:
       - "3304:3306"

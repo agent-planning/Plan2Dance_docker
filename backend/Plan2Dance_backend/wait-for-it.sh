@@ -7,7 +7,7 @@ host="$1"
 shift
 cmd="python3 manage.py migrate"
 USER=root
-PASSWARD=455050954
+PASSWARD=123456
 
 until mysql -h "$host" -u $USER -p $PASSWARD-e "show databases;" >/dev/null;do
     >&2 echo "Mysql is unavailable - sleeping"
