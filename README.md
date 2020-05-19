@@ -2,8 +2,9 @@
 ![image](https://github.com/Dongbox/Plan2Dance_docker/blob/master/GUI/Plan2Dance/logo.png)
 
 ## How to install locally Plan2Dance?
-
 Docker give your a early way.
+
+We use `django` to generate a web service to solve the choregraph's request for MINI. So you can post your music to a django in docker that it will run your request.
 
 ### 1.Install `docker`, `docker-compose` and `python3.6.7+` in your computer
 
@@ -23,6 +24,7 @@ docker-compose pull
 docker-compose build
 docker-compose up -d
 ```
+It need some times and wait it over.
 ### 4.Check
 ```
 docker logs p2d_backend
