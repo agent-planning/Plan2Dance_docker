@@ -30,7 +30,7 @@ It need some times and wait it over.
 docker logs p2d_backend
 ```
 If not error in output, that\`s ok, else use `docker restart p2d_backend` to restart the container.
-If migrations aren't initial in mysql databse,
+If migrations don't initial in mysql databse,
 ```
 docker exec -it p2d_backend bash
 python3 manage.py migrate  
@@ -51,7 +51,8 @@ python3 win_main.py
 ```
 git clone https://github.com/Dongbox/Plan2Dance_docker.git
 ```
-If you are using windows, you can download the .exe program in "!!!path"
+If you are using windows, you can download the .exe program in 
+"https://github.com/Dongbox/Plan2Dance_docker/releases/download/0.0.1/Plan2Dance-qt-win-online.0.0.1.zip"
 
 ### 2.Run 
 ```

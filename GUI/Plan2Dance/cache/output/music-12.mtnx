@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="DARWIN-MINI" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="2" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="4" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="3" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="6" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="5" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="8" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="7" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="10" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="9" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="12" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="11" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="14" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="13" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="16" />
+      <joint motor="XL-320" id="16" enable="True" id2="16" mirror="15" />
+    </skeleton>
+  </DesignRoot>
+<FlowRoot>
+<Flow name="dance" return="-1">
+<units>
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Running Man" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Enlarge Bosm Hoodwink" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Enlarge Bosm Hoodwink" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head mid" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Enlarge Bosm Hoodwink" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Spread Wings" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Left Fuels fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Beat Up And Down fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Centre To Backward" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Running Man" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="split leap" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Left Fuels fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Beat Up And Down fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Hand To Others" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Hands Wave Up slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Cross Fingers" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Beat Up And Down fast" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="left Right Out" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Block 1-1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Enlarge Bosm Hoodwink" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Scratching Head mid" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Elbow Turn" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Left Right Wave" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Left Fuels slow" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+	<unit main="Salute" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+</units>
+</Flow>
+</FlowRoot>
+<PageRoot>
+	<Page name="left Right Out">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 6 6 5 5 5 5 5 5 6 6" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="52" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="91" pose="94.92 -98.14 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="128" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="179" pose="81.89 -12.01 -0.19 44.53 9.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="231" pose="81.89 -12.01 -88.19 44.53 -86.5 48.34 -60 0 -4 64 2 -122 5 -65 -60 0" />
+        <step frame="282" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="333" pose="12.01 -81.89 -44.53 0.19 -48.34 -9.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="378" pose="12.01 -81.89 -44.53 88.19 -48.34 86.5 0 60 -64 4 122 -2 65 -5 0 60" />
+        <step frame="435" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="471" pose="12.89 -12.01 -42.19 44.53 -37.5 48.34 0 0 -64 64 122 -122 65 -65 0 0" />
+        <step frame="503" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 0 0 -64.45 64.45 114.26 -114.26 60.06 -60.06 0 0" />
+      </steps>
+    </Page>
+	<Page name="Running Man">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="9" pose="96.39 -93.16 53.03 -62.7 -116.02 112.21 0 0 -20.8 31.93 29.3 -29.3 18.75 -7.32 0 0" />
+        <step frame="21" pose="96.39 -93.16 53.03 -62.7 -116.02 112.21 0 0 -20.8 31.93 29.3 -29.3 18.75 -7.32 0 0" />
+        <step frame="71" pose="123.34 -122.46 -82.91 92.87 -17.87 -9.38 0 0 3.52 75 44.82 -79.39 58.01 -13.48 -4.98 -6.15" />
+        <step frame="196" pose="123.34 -122.46 -82.91 92.87 -17.87 -9.38 0 0 3.52 75 44.82 -79.39 58.01 -13.48 -4.98 -6.15" />
+        <step frame="246" pose="0 0 -73.24 73.24 0 0 -3.22 2.64 -41.31 26.07 58.3 -29.59 30.47 -16.41 -9.08 -3.22" />
+        <step frame="255" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+	<Page name="Block 1-1">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="0" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="77" pose="4.1 -4.1 -1.17 1.17 -4.1 4.1 -34.28 34.28 -64.45 64.45 114.26 -114.26 60.06 -60.06 -32.23 32.23" />
+        <step frame="128" pose="4.39 -4.39 -59.18 59.18 -4.1 4.1 -33.69 33.69 -64.45 64.45 114.26 -114.26 60.06 -60.06 -31.93 31.93" />
+        <step frame="205" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+	<Page name="Scratching Head slow">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="44" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="80" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="118" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="155" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="195" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="220" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="264" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+	<Page name="Enlarge Bosm Hoodwink">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 3 3 3 3 3 3 4 4" />
+      <steps>
+        <step frame="31" pose="77.34 -76.17 -69.14 73.83 -80.57 78.22 0 0 -14.65 14.65 29.3 -29.3 11.72 -11.72 0 0" />
+        <step frame="56" pose="77.34 -76.17 -69.14 73.83 -80.57 78.22 0 0 -14.65 14.65 29.3 -29.3 11.72 -11.72 0 0" />
+        <step frame="87" pose="127.15 -123.93 -69.14 73.83 -80.57 78.22 0 0 -43.95 43.95 87.89 -87.89 43.95 -43.95 0 0" />
+        <step frame="116" pose="127.15 -123.93 -69.14 73.83 -80.57 78.22 0 0 -43.95 43.95 87.89 -87.89 43.95 -43.95 0 0" />
+      </steps>
+    </Page>
+	<Page name="Scratching Head fast">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="59" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="87" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="114" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="144" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="163" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="195" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+	<Page name="Scratching Head mid">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="38" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="69" pose="81.15 -91.99 41.02 -34.28 -107.23 109.86 -8.79 -8.79 -17.58 5.86 35.16 -11.72 20.51 -8.79 0 0" />
+        <step frame="102" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="134" pose="92 -92 -92 92 0 0 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="169" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="191" pose="145.31 -100.2 -41.89 59.18 -109.28 99.61 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+        <step frame="229" pose="145.31 -150 -41.89 58.89 -109.28 90.53 -5.86 5.86 -14.65 14.65 17.58 -17.58 2.93 -2.93 -5.86 5.86" />
+      </steps>
+    </Page>
+	<Page name="Spread Wings">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="39" pose="21.09 -15.82 52.73 -53.03 -115.14 112.21 0 -0.29 -5.57 5.86 11.43 -12.01 5.57 -6.15 -0.29 -0.29" />
+        <step frame="78" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="93" pose="0 -0.29 46.58 -51.27 50.68 -48.34 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="143" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="155" pose="0 -0.29 50.98 -46.88 48.05 -50.98 -13.18 7.91 -14.94 14.65 17.58 -17.87 5.86 -6.15 -13.18 9.38" />
+        <step frame="180" pose="31.05 -28.42 -53.32 51.27 -50.1 45.12 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+      </steps>
+    </Page>
+	<Page name="Left Fuels fast">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="33" pose="88.77 -93.16 -4.39 6.15 -4.98 2.05 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="87" pose="63.57 -56.25 -106.64 33.11 -63.57 108.69 5.86 5.86 -0.29 17.29 -0.29 -35.45 -0.29 -17.87 0 0" />
+        <step frame="108" pose="63.57 -56.25 -106.64 33.11 -63.57 108.69 5.86 5.86 -0.29 17.29 -0.29 -35.45 -0.29 -17.87 0 0" />
+      </steps>
+    </Page>
+	<Page name="Beat Up And Down fast">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="42" pose="89.65 -39.84 -77.64 60.64 -82.62 94.92 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="86" pose="53.91 -83.2 -62.99 65.33 -104.3 108.11 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+      </steps>
+    </Page>
+	<Page name="Centre To Backward">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="26" pose="0 0 -82.03 82.03 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+        <step frame="65" pose="0 0 -82 82 0 0 0 0 14.65 -14.65 -17.58 17.58 -8.79 8.79 0 0" />
+      </steps>
+    </Page>
+	<Page name="Elbow Turn">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="37" pose="62.99 -62.99 -106.64 106.64 4.98 3.81 0 0 -5.86 5.86 11.72 -11.72 2.93 -2.93 0 0" />
+        <step frame="62" pose="90.23 -99.02 28.71 -26.07 -47.75 43.65 0 0 -5.86 5.86 11.72 -11.72 5.86 -5.86 0 0" />
+        <step frame="99" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+        <step frame="134" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="161" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="186" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="217" pose="-0.29 -2.34 -83.2 91.41 47.46 -53.03 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="241" pose="0.88 -2.34 -18.46 37.5 -65.33 46.88 -5.86 5.86 -5.86 5.86 11.72 -11.72 5.86 -5.86 -5.86 5.86" />
+        <step frame="273" pose="-10.55 7.91 -9.38 2.93 97.27 -87.3 0 0 -5.86 5.86 11.72 -11.72 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+	<Page name="split leap">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 0 0 -64.45 64.45 114.26 -114.26 60.06 -60.06 0 0" />
+        <step frame="75" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 -88.48 88.48 -64.45 64.45 114.26 -114.26 60.06 -60.06 -96.97 96.97" />
+        <step frame="125" pose="77.93 -77.93 3.52 -3.52 -3.22 3.22 -88.48 88.48 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="250" pose="77.93 -77.93 3.52 -3.52 -3.22 3.22 -88.48 88.48 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="300" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 -88.48 88.48 -64.45 64.45 114.26 -114.26 60.06 -60.06 -96.97 96.97" />
+        <step frame="350" pose="78.22 -78.22 -88.48 88.48 -4.1 4.1 0 0 -64.45 64.45 114.26 -114.26 60.06 -60.06 0 0" />
+        <step frame="425" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="461" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+	<Page name="Hand To Others">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="26" pose="86.13 -89.36 -61.82 62.99 -107.52 108.4 2 2 -13 13 20 -20 10 -10 0 0" />
+        <step frame="52" pose="0 0 -70 70 0 0 0 0 -14.65 14.65 17.58 -17.58 8.79 -8.79 0 0" />
+      </steps>
+    </Page>
+	<Page name="Hands Wave Up slow">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5" />
+      <steps>
+        <step frame="29" pose="2.93 -6.74 -73.54 72.66 -15.82 23.73 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="147" pose="0.29 -5.86 -72.36 76.46 39.84 -46.29 0 0 -13 13 20 -20 14 -14 0 0" />
+        <step frame="294" pose="1.76 -6.15 -10.25 6.74 -38.09 20.8 0 0 -13 13 20 -20 14 -13.48 0 0" />
+      </steps>
+    </Page>
+	<Page name="Cross Fingers">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="25" pose="123.34 -119.82 -4.69 2.93 -17.29 36.33 8.79 8.79 -14.94 14.65 17.58 -17.87 5.86 -6.15 5.86 5.86" />
+        <step frame="50" pose="97.27 -53.03 -108.11 105.76 -34.28 26.37 -0.29 -0.29 -14.94 14.65 17.58 -17.87 2.64 -3.22 -0.29 -0.29" />
+        <step frame="75" pose="66.5 -67.97 -33.98 32.23 -6.45 19.92 8.79 8.79 -14.94 14.65 17.58 -17.87 5.86 -6.15 5.86 5.86" />
+        <step frame="100" pose="97.27 -53.03 -108.11 105.76 -34.28 26.37 -0.29 -0.29 -14.94 14.65 17.58 -17.87 5.57 -6.15 -0.29 -0.29" />
+      </steps>
+    </Page>
+	<Page name="Left Right Wave">
+      <param compileSize="2" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="52" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="77" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="83" pose="-20.8 0 57.13 82.03 74.41 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="108" pose="-19.04 0 35.45 82.03 67.97 0 -5.86 5.86 -23.44 23.44 35.16 -35.16 17.58 -17.58 -5.86 5.86" />
+        <step frame="133" pose="-9.96 0 -10.25 82.03 67.38 0 -5.86 5.86 -29.3 29.3 46.88 -46.88 23.44 -23.44 -5.86 5.86" />
+        <step frame="155" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="180" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="186" pose="-0.29 20.51 -82.32 -57.42 -0.29 -74.71 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+        <step frame="211" pose="-0.29 18.75 -82.32 -35.74 -0.29 -68.26 -6.15 5.57 -23.73 23.14 34.86 -35.45 17.29 -17.87 -6.15 5.57" />
+        <step frame="236" pose="-0.29 9.67 -82.32 9.96 -0.29 -67.68 -6.15 5.57 -29.59 29 46.58 -47.17 23.14 -23.73 -6.15 5.57" />
+      </steps>
+    </Page>
+	<Page name="Left Fuels slow">
+      <param compileSize="1" acceleration="32" softness="5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="44" pose="88.77 -93.16 -4.39 6.15 -4.98 2.05 -8.2 12.89 -14.94 14.65 17.58 -17.87 5.86 -6.15 -9.67 12.89" />
+        <step frame="118" pose="63.57 -56.25 -106.64 33.11 -63.57 108.69 5.86 5.86 -0.29 17.29 -0.29 -35.45 -0.29 -17.87 0 0" />
+        <step frame="147" pose="63.57 -56.25 -106.64 33.11 -63.57 108.69 5.86 5.86 -0.29 17.29 -0.29 -35.45 -0.29 -17.87 0 0" />
+      </steps>
+    </Page>
+	<Page name="Salute">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="42" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+        <step frame="88" pose="-22.27 -44.24 -73.24 73.24 0 0 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="138" pose="-22.27 -44.24 -62.99 92.58 -71.78 58.59 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="213" pose="-22.27 -69.73 -62.99 92.58 -71.78 58.59 0 0 -79.39 82.91 29.3 -29.3 -10.25 10.55 0 0" />
+        <step frame="338" pose="-22.27 -69.73 -62.99 92.58 -71.78 58.59 0 0 -79.39 82.91 29.3 -29.3 -10.25 10.55 0 0" />
+        <step frame="413" pose="-22.27 -44.24 -73.24 73.24 0 0 0 0 -26.37 26.07 29.3 -29.3 13.18 -13.48 0 0" />
+        <step frame="463" pose="0 0 -73.24 73.24 0 0 0 0 -26.37 26.37 29.3 -29.3 13.18 -13.18 0 0" />
+      </steps>
+    </Page>
+
+</PageRoot>
+  <GroupRoot>
+    <Group name="None">
+      <param weights="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot />
+</Root>
