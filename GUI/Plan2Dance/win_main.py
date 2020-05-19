@@ -25,16 +25,18 @@ from urllib3 import encode_multipart_formdata
 from Plan2Dance.win_base_ui import Ui_Robot as ui
 
 ProjectPath = os.path.dirname(os.path.realpath(__file__))
+# Config file path
 path = os.path.join(ProjectPath, 'cache/Plan2Dance.cfg')
 PAST_MUSIC_PATH = os.path.join(ProjectPath, "cache/past_music.txt")
 MTNX_FILE_PATH = os.path.join(ProjectPath, "cache/output")
 ERROR_LOG_PATH = os.path.join(ProjectPath, "cache/error.log")
+# Result store
 PLAN2DANCE_REQUEST_ID = None
 SEGMENT_LIST = None
 PLAN_LIST = None
 SCRIPT_DATA = None
 ACTION_MODEL = None
-
+REQUEST_PREFFIX_URL = "http://localhost:8081"  # Change the request ip and port
 
 class IOConfig:
     """
@@ -1094,7 +1096,7 @@ def step_model_send_file(filename, file_path):
     :param filename：music name
     :param file_path：music path
     """
-    url = "http://localhost:8081/api/action_model"
+    url = REQUEST_PREFFIX_URL + "/api/action_model"
 
     with open(file_path, mode="rb")as f:  # 打开文件
         file = {
@@ -1126,7 +1128,7 @@ def step_analysis_send_param(request_id, config):
     :param config: local config
     :return: 
     """
-    url = "http://localhost:8081/api/music_analysis"
+    url = REQUEST_PREFFIX_URL + "/api/music_analysis"
     file_data = {
         'request_id': request_id,
         'config': json.dumps(config)
@@ -1147,7 +1149,7 @@ def step_planner_send_config(request_id, config):
     """
         Network request for Step 3
     """
-    url = "http://localhost:8081/api/planning_generation"
+    url = REQUEST_PREFFIX_URL + "/api/planning_generation"
     file_data = {
         'request_id': request_id,
         'config': json.dumps(config)
@@ -1168,7 +1170,7 @@ def step_robot_script_send_id(request_id):
     """
         Network request for Step 4
     """
-    url = "http://localhost:8081/api/script_generation"
+    url = REQUEST_PREFFIX_URL + "/api/script_generation"
     file_data = {
         'request_id': request_id,
     }

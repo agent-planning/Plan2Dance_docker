@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="" />
+    <list default="true" id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +19,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="JupyterTrust" id="7722bc0c-bb64-4434-a1b8-e7f3d11fe05b" />
   <component name="ProjectId" id="1c3tw8cFbKdv0YcWzQlQF0mvoZB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -136,7 +142,7 @@
       <updated>1589769340840</updated>
       <workItem from="1589769343718" duration="1742000" />
       <workItem from="1589751249918" duration="10119000" />
-      <workItem from="1589811839299" duration="31476000" />
+      <workItem from="1589811839299" duration="32077000" />
     </task>
     <servers />
   </component>
