@@ -28,4 +28,4 @@ In this work we present Plan2Dance, an automated choreography system using tempo
 2. For the sake of builtin memory limitation in our experimental robot's, the length of the input music is restricted to less than 1 minute. The exceeding part will be cut off directly.
 
 **Check out the wiki for more information.**
-https://github.com/topbobo/Plan2Dance/wiki
+https://github.com/Dongbox/Plan2Dance_docker/wiki

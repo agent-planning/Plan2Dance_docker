@@ -56,7 +56,7 @@ If you are using windows, you can download the .exe program in
 
 ### 2.Run 
 ```
-cd GUI
+cd GUI/Plan2Dance
 pip3 install -r requirements.txt
 python3 win_main.py
 ```
