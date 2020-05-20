@@ -36,7 +36,8 @@ SEGMENT_LIST = None
 PLAN_LIST = None
 SCRIPT_DATA = None
 ACTION_MODEL = None
-REQUEST_PREFFIX_URL = "http://129.204.121.191:8081"  # Change the request ip and port
+REQUEST_PREFFIX_URL = "http://localhost:8081"  # Change the request ip and port
+# Web service URL: plan2dance.dongbox.top:8081
 
 class IOConfig:
     """
