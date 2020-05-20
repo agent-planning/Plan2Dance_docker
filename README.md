@@ -60,3 +60,5 @@ cd GUI
 pip3 install -r requirements.txt
 python3 win_main.py
 ```
+
+> More infomation in https://github.com/Dongbox/Plan2Dance_docker/wiki
