@@ -39,7 +39,7 @@ that will migrate the projects\` models to database.
 
 ### 5.Run 
 ```
-cd GUI
+cd GUI/Plan2Dance
 pip3 install -r requirements.txt
 python3 win_main.py
 ```
