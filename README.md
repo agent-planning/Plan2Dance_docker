@@ -2,9 +2,9 @@
 ![image](https://github.com/Dongbox/Plan2Dance_docker/blob/master/GUI/Plan2Dance/logo.png)
 
 ## How to install locally Plan2Dance?
-Docker give your a early way.
+Docker gives you an early way.
 
-We use `django` to generate a web service to solve the choregraph's request for MINI. So you can post your music to a django in docker that it will run your request.
+We use `Django` to generate a web service to solve the choreograph's request for MINI. So you can post your music to a Django in docker that it will run your request.
 
 ### 1.Install `docker`, `docker-compose` and `python3.6.7+` in your computer
 
@@ -24,18 +24,18 @@ docker-compose pull
 docker-compose build
 docker-compose up -d
 ```
-It need some times and wait it over.
+It needs some time and wait for it over.
 ### 4.Check
 ```
 docker logs p2d_backend
 ```
-If not error in output, that\`s ok, else use `docker restart p2d_backend` to restart the container.
-If migrations don't initial in mysql databse,
+If not the error in the output, that\`s ok, else use `docker restart p2d_backend` to restart the container.
+If migrations don't initial in MySQL database,
 ```
 docker exec -it p2d_backend bash
 python3 manage.py migrate  
 ```
-that will migrate the projects\`models to database.
+that will migrate the projects\` models to database.
 
 ### 5.Run 
 ```

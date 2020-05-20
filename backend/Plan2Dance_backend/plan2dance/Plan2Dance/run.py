@@ -7,6 +7,7 @@ from plan2dance.Plan2Dance.planning_domain_definition_language import ActionResu
 from plan2dance.Plan2Dance.music_analysis import segment, prepare_analysis
 from plan2dance.Plan2Dance.config import IOConfig
 from plan2dance.Plan2Dance.prepare import PopActionsDefine
+import argparse
 
 project_path = os.path.dirname(os.path.dirname(__file__))
 pop_action_path = os.path.join(ProjectPath, "Data/Prepare/Action/PopAction")
@@ -97,3 +98,53 @@ def run_generate_script(pkl_path):
         print(e)
         return False
 
+
+def main(args):
+    """
+        generate a dance script
+        The result will point to ../Data/Result/output/music/*
+        Params:
+            music_path: path for your music
+
+    """
+    if args.music_path:
+        music_path = args.music_path
+    else:
+        raise KeyError("Input your music path.")
+
+    # Step 1
+    config = IOConfig().get_config()
+    ms = Music(music_path, config)
+    # Step 2
+    ms.action_config = PopActionsDefine
+    ms.action_path = pop_action_path
+    classifier = config['classifier']
+    if classifier == "yes":
+        prepare_analysis.MusicAnalysis().run(is_restart=True)
+    segment.GetMusicSegment(ms).run()
+    action_select.ActionSelect(ms).run()
+    # Step 3
+    plan_function = ms.Config["plan_function"]
+    if plan_function == "parallel":
+        # 4.1 使用并行进行求解
+        print("Start parallel solution...")
+        ParallelSort(ms).run()
+    else:
+        # 4.2 使用串行进行求解
+        print("Start serial solution...")
+        SerialSort(ms).run()
+    # Step 4
+    action_switch.SwitchToAction(ms).run()  # 转换为舞蹈文件
+
+    # If you want to save entity of music.
+    if args.pkl_path:
+        pkl_path = args.music_path
+        AboutClass.save(pkl_path, ms)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--music_path", help="path for your music")
+    parser.add_argument("-p", "--pkl_path", help="Using pickle your music entity. Input your path")
+    args = parser.parse_args()
+    main(args)
