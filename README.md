@@ -19,7 +19,7 @@ git clone https://github.com/Dongbox/Plan2Dance_docker.git
 ```
 ### 3.Deploy
 ```
-cd Plan2Dance-docker
+cd Plan2Dance_docker
 docker-compose pull
 docker-compose build
 docker-compose up -d
