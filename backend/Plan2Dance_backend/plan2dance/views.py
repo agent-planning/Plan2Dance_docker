@@ -67,7 +67,8 @@ class MusicAnalysis(APIView):
             """
         try:
             request_id = int(request.data['request_id'])
-            config = json.loads(request.data['config'])
+            origin_config = request.data['config']
+            config = get_config(origin_config)
             task = TaskManage.objects.get(id=request_id)
             if not task:
                 return False
@@ -91,7 +92,8 @@ class PlanningGeneration(APIView):
     def post(self, request, *args, **kwargs):
         try:
             request_id = int(request.data['request_id'])
-            config = json.loads(request.data['config'])
+            origin_config = request.data['config']
+            config = get_config(origin_config)
             task = TaskManage.objects.get(id=request_id)
             if not task:
                 raise
@@ -133,6 +135,13 @@ class ScriptGeneration(APIView):
         except Exception as e:
             print(e)
             return Response({}, status=status.HTTP_408_REQUEST_TIMEOUT)
+
+
+def get_config(origin_config):
+    if isinstance(origin_config, str):
+        return json.loads(origin_config)
+    else:
+        return dict(origin_config)
 
 
 def plan_objects_to_json(plan_results):

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plan2Dance_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plan2Dance_backend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plan2dance/Plan2Dance/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/Plan2Dance/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan2dance/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +145,7 @@
       <updated>1589769340840</updated>
       <workItem from="1589769343718" duration="1742000" />
       <workItem from="1589751249918" duration="10119000" />
-      <workItem from="1589811839299" duration="35687000" />
+      <workItem from="1589811839299" duration="40728000" />
     </task>
     <servers />
   </component>
@@ -238,13 +240,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/run.py</url>
-          <line>78</line>
+          <line>104</line>
           <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/plan2dance/views.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -15,6 +15,32 @@ pop_action_path = os.path.join(ProjectPath, "Data/Prepare/Action/PopAction")
 pkl_tmp_dir = '/home/plan2dance/pkl'
 
 
+def step_by_step(music_path, step):
+    config = IOConfig().get_config()
+    ms = Music(music_path, config)
+    if step == 1:
+        return ms
+    ms.action_config = PopActionsDefine
+    ms.action_path = pop_action_path
+    segment.GetMusicSegment(ms).run()
+    action_select.ActionSelect(ms).run()
+    if step == 2:
+        return ms
+    plan_function = ms.Config["plan_function"]
+    if plan_function == "parallel":
+        # 4.1 使用并行进行求解
+        print("Start parallel solution...")
+        ParallelSort(ms).run()
+    else:
+        # 4.2 使用串行进行求解
+        print("Start serial solution...")
+        SerialSort(ms).run()
+    if step == 3:
+        return ms
+    action_switch.SwitchToAction(ms).run()  # 转换为舞蹈文件
+    return ms
+
+
 def run_action_model(music_path):
     try:
         config = IOConfig().get_config()
