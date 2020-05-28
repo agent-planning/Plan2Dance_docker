@@ -1,8 +1,6 @@
 """
     音频切割与分析
 """
-import os
-import sys
 import librosa
 from pyAudioAnalysis.audioBasicIO import read_audio_file, stereo_to_mono
 from pyAudioAnalysis.audioSegmentation import silence_removal
@@ -19,7 +17,7 @@ class GetMusicSegment:
         self.config = self.ms.Config
         self.segment = self.config['segment']
         self.music_path = ms.music_path
-        self.music_time = self.__get_music_time(self.music_path)
+        self.music_time = get_music_time(self.music_path)
         ms.music_time = self.music_time
         self.AnalysisClass = MusicAnalysis()
         model_name = self.AnalysisClass.get_lastly_model()
@@ -70,20 +68,9 @@ class GetMusicSegment:
         cur_list.append(arr)
         return cur_list
 
-    @staticmethod
-    def __get_music_time(music_path):
-        """
-        获取当前分析音乐的时长
-        :return:
-        """
-        [fs, x] = read_audio_file(music_path)
-        duration = float(len(x)) / fs
-        return duration
-
     def use_cluster(self):
         """
         对整类型分布做一定的切割
-        :param type_list:
         :return:
        """
         print("Use the method of cluster...")
@@ -139,10 +126,22 @@ class GetMusicSegment:
         return segment_result
 
 
+def get_music_time(music_path):
+    """
+    获取当前分析音乐的时长
+    :return:
+    """
+    [fs, x] = read_audio_file(music_path)
+    duration = float(len(x)) / fs
+    return duration
+
+
 def get_one_minute_music(music_path):
     """
         切割音频为一分钟
     """
-    music_format = music_path.split('.')[-1]
-    audiofile = AudioSegment.from_file(music_path, music_format)
-    audiofile[:60 * 1000].export(music_path, format=music_format)
+    music_time = get_music_time(music_path)
+    if music_time > 62:
+        music_format = music_path.split('.')[-1]
+        audio_file = AudioSegment.from_file(music_path, music_format)
+        audio_file[:60 * 1000].export(music_path, format=music_format)
