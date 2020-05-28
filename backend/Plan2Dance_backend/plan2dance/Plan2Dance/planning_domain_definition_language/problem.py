@@ -246,7 +246,6 @@ class BaseProblem:
         music_problem_save = os.path.join(self.ms.problem_dir_path, save_name)
         with open(music_problem_save, 'w', encoding='UTF-8') as f:
             f.write(problem_str)
-        # print("Generate:", music_problem_save)
         return music_problem_save
 
     def _define_init(self, start, end, duration):

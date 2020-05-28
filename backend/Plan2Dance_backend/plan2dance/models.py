@@ -6,6 +6,9 @@ from django.db.models import CharField, BooleanField, SmallIntegerField, DateTim
 
 
 class TaskManage(models.Model):
+    """
+        任务记录表
+    """
     step_action_model = BooleanField(default=False)
     step_music_analysis = BooleanField(default=False)
     step_planning_generation = BooleanField(default=False)

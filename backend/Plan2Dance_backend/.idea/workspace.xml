@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7ac82b-0a39-4bb5-9fc5-1d1af49874c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../GUI/Plan2Dance/cache/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUI/Plan2Dance/cache/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GUI/Plan2Dance/cache/output/music-12.mtnx" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUI/Plan2Dance/cache/output/music-12.mtnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GUI/Plan2Dance/win_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUI/Plan2Dance/win_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plan2Dance_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plan2Dance_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/segment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan2dance/Plan2Dance/planning_domain_definition_language/problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/Plan2Dance/planning_domain_definition_language/problem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plan2dance/Plan2Dance/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/Plan2Dance/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan2dance/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan2dance/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plan2dance/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plan2dance/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +151,8 @@
       <updated>1589769340840</updated>
       <workItem from="1589769343718" duration="1742000" />
       <workItem from="1589751249918" duration="10119000" />
-      <workItem from="1589811839299" duration="40728000" />
+      <workItem from="1589811839299" duration="41937000" />
+      <workItem from="1590649615424" duration="2184000" />
     </task>
     <servers />
   </component>
@@ -230,7 +237,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/music_analysis/segment.py</url>
-          <line>47</line>
+          <line>50</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -240,7 +247,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plan2dance/Plan2Dance/run.py</url>
-          <line>104</line>
+          <line>106</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>

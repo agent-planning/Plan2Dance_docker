@@ -1,12 +1,15 @@
 """
     音频切割与分析
 """
+import os
 import sys
 import librosa
 from pyAudioAnalysis.audioBasicIO import read_audio_file, stereo_to_mono
 from pyAudioAnalysis.audioSegmentation import silence_removal
 import math
 import numpy as np
+from pydub import AudioSegment
+
 from plan2dance.Plan2Dance.music_analysis import MusicAnalysis
 
 
@@ -134,3 +137,12 @@ class GetMusicSegment:
         self.ms.beat_list = beats_time
         self.ms.segment_result = segment_result  # type list
         return segment_result
+
+
+def get_one_minute_music(music_path):
+    """
+        切割音频为一分钟
+    """
+    music_format = music_path.split('.')[-1]
+    audiofile = AudioSegment.from_file(music_path, music_format)
+    audiofile[:60 * 1000].export(music_path, format=music_format)

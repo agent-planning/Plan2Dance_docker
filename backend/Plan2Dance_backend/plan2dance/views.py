@@ -8,7 +8,6 @@ from rest_framework import status
 from rest_framework.views import APIView
 from plan2dance.Plan2Dance.run import run_action_model, run_music_analysis, run_planning_generation, run_generate_script
 from plan2dance.models import TaskManage
-from plan2dance.Plan2Dance.common import PlanResult
 
 ALLOWED_EXTENSIONS = set(['mp3'])
 

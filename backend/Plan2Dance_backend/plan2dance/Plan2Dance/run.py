@@ -17,6 +17,7 @@ pkl_tmp_dir = '/home/plan2dance/pkl'
 
 def step_by_step(music_path, step):
     config = IOConfig().get_config()
+    segment.get_one_minute_music(music_path)
     ms = Music(music_path, config)
     if step == 1:
         return ms
@@ -44,7 +45,8 @@ def step_by_step(music_path, step):
 def run_action_model(music_path):
     try:
         config = IOConfig().get_config()
-
+        # 音乐切割
+        segment.get_one_minute_music(music_path)
         ms = Music(music_path, config)
         pkl_path = os.path.join(pkl_tmp_dir, f"{ms.music_name}.pkl")
         AboutClass.save(pkl_path, ms)
