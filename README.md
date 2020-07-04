@@ -1,7 +1,7 @@
 # Plan2Dance in Docker
 ![image](https://github.com/Dongbox/Plan2Dance_docker/blob/master/GUI/Plan2Dance/logo.png)
 
-## How to install locally Plan2Dance?
+## How to install local Plan2Dance?
 Docker gives you an early way.
 
 We use `Django` to generate a web service to solve the choreograph's request for MINI. So you can post your music to a Django in docker that it will run your request.
