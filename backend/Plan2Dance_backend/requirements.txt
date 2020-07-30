@@ -1,5 +1,5 @@
 sklearn
-hmmlearn==0.2.2
+hmmlearn
 matplotlib==3.1.2
 simplejson==3.16.0
 scipy==1.4.1
