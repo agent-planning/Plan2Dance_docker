@@ -7,7 +7,7 @@ import os
 from configparser import ConfigParser
 from functools import partial
 import requests
-import win32api
+import platform
 from PySide2 import QtCore, QtWidgets, QtGui
 from PySide2.QtCore import Qt
 from PySide2.QtGui import QCursor
@@ -239,10 +239,15 @@ class MainWindow(QtWidgets.QWidget, ui):
         """
                 Slot function: Open directory
         """
-        try:
-            win32api.ShellExecute(0, 'open', MTNX_FILE_PATH, '', '', 1)
-        except FileNotFoundError or FileExistsError:
-            self.show_error("Directory not Found. {}".format(MTNX_FILE_PATH))
+        sys = platform.system()
+        if sys == "Windows":
+            import win32api
+            try:
+                win32api.ShellExecute(0, 'open', MTNX_FILE_PATH, '', '', 1)
+            except FileNotFoundError or FileExistsError:
+                self.show_error("Directory not Found. {}".format(MTNX_FILE_PATH))
+        else:
+            pass
 
     def __func_print_cluster_data(self):
         """
