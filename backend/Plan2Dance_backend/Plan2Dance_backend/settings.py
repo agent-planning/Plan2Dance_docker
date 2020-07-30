@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'plan2dance',
         'USER': 'root',
-        'PASSWORD': '455050954',  # Change this for you
+        'PASSWORD': '123456',  # Change this for you
         'HOST': 'mysql',
         'PORT': 3306,
     }
